@@ -171,7 +171,9 @@ def SampleAllSensors(sensor_precision,form):
 	return output
   
 # Routine Function Wrappers
- 
+
+#I think this pulls data from MySQL, takes a picture, and tweets it out
+#Every 5 minutes
 def aLoop():
 	Log.ConsoleDebug(LogType,"Starting aLoop")
 	global cycle
@@ -182,13 +184,16 @@ def aLoop():
 	image = Hardware.CaptureImage(VisualLocation['CurrentImageDirectory'],cycle,False,imagetext)
 	
 	time.sleep(5)
-	tweet = SampleAllSensors(10,'Twitter') + " http://www.esologic.com/piplanter" + " #PiPlanter"
+	tweet = SampleAllSensors(10,'Twitter') + " #PiPlanter"
 	
 	DataToWeb.TryTweet(True,image,tweet)
 	
 	cycle = cycle + 1
 	Log.ConsoleDebug(LogType,'aLoop Complete')
- 
+
+#I think this makes data graphs, makes a time lapse of the alst three days,
+#and tweets them out
+#Every day
 def bLoop():
 	Log.ConsoleDebug(LogType,"Starting bLoop")
 	
@@ -217,12 +222,17 @@ def bLoop():
 	VisualLocationSetup(False,'Graph')
 	
 	Log.ConsoleDebug(LogType,'bLoop Complete')
- 
+
+
+#unused
 def cLoop():
 	Log.ConsoleDebug(LogType,"Starting cLoop")
 
 	Log.ConsoleDebug(LogType,'cLoop')
- 
+
+
+#I think this just tweets out graphs
+#Every week
 def dLoop():
 	Log.ConsoleDebug(LogType,"Starting dLoop")
 	graphlocation = RenderData.RenderGraph(MySQL_Tables['MySQLTable_Weekly'],VisualLocation['CurrentGraphDirectory'])
@@ -243,7 +253,10 @@ def dLoop():
 	print VisualLocation['CurrentVideoDirectory']
 	print VisualLocation['CurrentGraphDirectory']
 	Log.ConsoleDebug(LogType,"dLoop Complete")
-	
+
+
+#I think tweets out how many Liters of water is being pumped
+#Every 3 days
 def eLoop():
 	Log.ConsoleDebug(LogType,"Starting eLoop")
 	tweet2 = Hardware.PumpWater('PUMP0',1)
