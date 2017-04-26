@@ -1,0 +1,285 @@
+[04-14-2017_01-15-34-AM] Hardware: Opening Serial Port
+[04-14-2017_01-15-43-AM] Hardware: Opening Serial Port
+[04-14-2017_01-15-43-AM] Hardware: Serial Port Opened
+[04-14-2017_01-15-43-AM] Hardware: Changing LEDs to: R: 255 G: 0 B: 255
+[04-14-2017_01-15-43-AM] Hardware: Attempting to Send: noise,1,255,0,255$
+[04-14-2017_01-15-53-AM] Hardware: Message sent, recived: 
+[04-14-2017_01-15-53-AM] Hardware: Serial Handshake Failed, Retrying.
+[04-14-2017_01-16-03-AM] Hardware: Serial Handshake Failed, Retrying.
+[04-14-2017_01-16-13-AM] Hardware: Serial Handshake Failed, Retrying.
+[04-14-2017_01-16-23-AM] Hardware: Serial Handshake Failed, Retrying.
+[04-14-2017_01-16-33-AM] Hardware: Serial Handshake Failed, Retrying.
+[04-14-2017_01-16-43-AM] Hardware: Serial Handshake Failed, Retrying.
+[04-14-2017_01-16-54-AM] Hardware: Serial Handshake Failed, Retrying.
+[04-14-2017_01-17-04-AM] Hardware: Serial Handshake Failed, Retrying.
+[04-14-2017_01-17-14-AM] Hardware: Serial Handshake Failed, Retrying.
+[04-14-2017_01-17-24-AM] Hardware: Serial Handshake Failed, Retrying.
+[04-14-2017_01-17-34-AM] Hardware: Serial Handshake Failed, Retrying.
+[04-24-2017_10-17-35-PM] Master: MYSQL COMMAND: CREATE TABLE DailyTable04_24_2017__10_17_35pm(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),P_MST0 VARCHAR(100),P_MST1 VARCHAR(100),A_TMP0 VARCHAR(100),A_LDR0 VARCHAR(100))
+[04-24-2017_10-19-51-PM] Master: MYSQL COMMAND: CREATE TABLE DailyTable04_24_2017__10_19_51pm(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),P_MST0 VARCHAR(100),P_MST1 VARCHAR(100),A_TMP0 VARCHAR(100),A_LDR0 VARCHAR(100))
+[04-24-2017_10-23-27-PM] Master: MYSQL COMMAND: CREATE TABLE DailyTable04_24_2017__10_23_27PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),P_MST0 VARCHAR(100),P_MST1 VARCHAR(100),A_TMP0 VARCHAR(100),A_LDR0 VARCHAR(100))
+[04-24-2017_10-24-02-PM] Master: ---------------- NEW INSTANCE OF PIPLANTER ----------------
+[04-24-2017_10-24-02-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS PiPlanter_DB
+[04-24-2017_10-24-02-PM] Master: MYSQL COMMAND: GRANT ALL ON `PiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[04-24-2017_10-24-02-PM] Master: MYSQL COMMAND: USE PiPlanter_DB
+[04-24-2017_10-24-02-PM] Master: MYSQL COMMAND: CREATE TABLE DailyTable04_24_2017__10_24_02PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),P_MST0 VARCHAR(100),P_MST1 VARCHAR(100),A_TMP0 VARCHAR(100),A_LDR0 VARCHAR(100))
+[04-24-2017_10-24-02-PM] Master: MYSQL COMMAND: CREATE TABLE WeeklyTable04_24_2017__10_24_02PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),P_MST0 VARCHAR(100),P_MST1 VARCHAR(100),A_TMP0 VARCHAR(100),A_LDR0 VARCHAR(100))
+[04-24-2017_10-24-02-PM] Master: MYSQL COMMAND: CREATE TABLE MonthlyTable04_24_2017__10_24_02PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),P_MST0 VARCHAR(100),P_MST1 VARCHAR(100),A_TMP0 VARCHAR(100),A_LDR0 VARCHAR(100))
+[04-24-2017_10-24-03-PM] Master: Current Daily: DailyTable04_24_2017__10_24_02PM
+[04-24-2017_10-24-03-PM] Master: Current Weekly: WeeklyTable04_24_2017__10_24_02PM
+[04-24-2017_10-24-03-PM] Master: Current Monthly: MonthlyTable04_24_2017__10_24_02PM
+[04-24-2017_10-24-03-PM] Master: Creating Video Directory
+[04-24-2017_10-24-03-PM] Master: Video Directory Already Exists
+[04-24-2017_10-24-03-PM] Master: Creating Daily Video Directory
+[04-24-2017_10-24-03-PM] Master: Daily Video Directory Already Exists
+[04-24-2017_10-24-03-PM] Master: Creating Image Directory
+[04-24-2017_10-24-03-PM] Master: Image Directory Already Exists
+[04-24-2017_10-24-03-PM] Master: Creating Daily Image Directory
+[04-24-2017_10-24-03-PM] Master: Daily Image Directory Already Exists
+[04-24-2017_10-24-03-PM] Master: Creating Graph Directory
+[04-24-2017_10-24-03-PM] Master: Graph Directory Already Exists
+[04-24-2017_10-24-03-PM] Master: Updating All Current Visual Directories
+[04-24-2017_10-24-03-PM] Master: Making Directory: /home/pi/Desktop/videos/dailys/CurrentVideoDirectory_04_24_2017__10_24_03PM/
+[04-24-2017_10-24-03-PM] Master: Making Directory: /home/pi/Desktop/images/dailys/CurrentImageDirectory_04_24_2017__10_24_03PM/
+[04-24-2017_10-24-03-PM] Master: Making Directory: /home/pi/Desktop/graphs/CurrentGraphDirectory_04_24_2017__10_24_03PM/
+[04-24-2017_10-24-03-PM] Master: Current Image Directory/home/pi/Desktop/images/dailys/CurrentImageDirectory_04_24_2017__10_24_03PM/
+[04-24-2017_10-24-03-PM] Master: Current Video Directory/home/pi/Desktop/videos/dailys/CurrentVideoDirectory_04_24_2017__10_24_03PM/
+[04-24-2017_10-24-03-PM] Master: Current Graph Directory/home/pi/Desktop/graphs/CurrentGraphDirectory_04_24_2017__10_24_03PM/
+[04-24-2017_10-24-03-PM] Master: Setup Complete
+[04-24-2017_10-24-03-PM] Master: Starting aLoop
+[04-24-2017_10-25-38-PM] Master: ---------------- NEW INSTANCE OF PIPLANTER ----------------
+[04-24-2017_10-25-38-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS PiPlanter_DB
+[04-24-2017_10-25-38-PM] Master: MYSQL COMMAND: GRANT ALL ON `PiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[04-24-2017_10-25-38-PM] Master: MYSQL COMMAND: USE PiPlanter_DB
+[04-24-2017_10-25-38-PM] Master: MYSQL COMMAND: CREATE TABLE DailyTable04_24_2017__10_25_38PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))
+[04-24-2017_10-25-38-PM] Master: MYSQL COMMAND: CREATE TABLE WeeklyTable04_24_2017__10_25_38PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),P_MST0 VARCHAR(100),P_MST1 VARCHAR(100),A_TMP0 VARCHAR(100),A_LDR0 VARCHAR(100))
+[04-24-2017_10-25-38-PM] Master: MYSQL COMMAND: CREATE TABLE MonthlyTable04_24_2017__10_25_38PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),P_MST0 VARCHAR(100),P_MST1 VARCHAR(100),A_TMP0 VARCHAR(100),A_LDR0 VARCHAR(100))
+[04-24-2017_10-25-38-PM] Master: Current Daily: DailyTable04_24_2017__10_25_38PM
+[04-24-2017_10-25-38-PM] Master: Current Weekly: WeeklyTable04_24_2017__10_25_38PM
+[04-24-2017_10-25-38-PM] Master: Current Monthly: MonthlyTable04_24_2017__10_25_38PM
+[04-24-2017_10-25-38-PM] Master: Creating Video Directory
+[04-24-2017_10-25-38-PM] Master: Video Directory Already Exists
+[04-24-2017_10-25-39-PM] Master: Creating Daily Video Directory
+[04-24-2017_10-25-39-PM] Master: Daily Video Directory Already Exists
+[04-24-2017_10-25-39-PM] Master: Creating Image Directory
+[04-24-2017_10-25-39-PM] Master: Image Directory Already Exists
+[04-24-2017_10-25-39-PM] Master: Creating Daily Image Directory
+[04-24-2017_10-25-39-PM] Master: Daily Image Directory Already Exists
+[04-24-2017_10-25-39-PM] Master: Creating Graph Directory
+[04-24-2017_10-25-39-PM] Master: Graph Directory Already Exists
+[04-24-2017_10-25-39-PM] Master: Updating All Current Visual Directories
+[04-24-2017_10-25-39-PM] Master: Making Directory: /home/pi/Desktop/videos/dailys/CurrentVideoDirectory_04_24_2017__10_25_38PM/
+[04-24-2017_10-25-39-PM] Master: Making Directory: /home/pi/Desktop/images/dailys/CurrentImageDirectory_04_24_2017__10_25_38PM/
+[04-24-2017_10-25-39-PM] Master: Making Directory: /home/pi/Desktop/graphs/CurrentGraphDirectory_04_24_2017__10_25_38PM/
+[04-24-2017_10-25-39-PM] Master: Current Image Directory/home/pi/Desktop/images/dailys/CurrentImageDirectory_04_24_2017__10_25_38PM/
+[04-24-2017_10-25-39-PM] Master: Current Video Directory/home/pi/Desktop/videos/dailys/CurrentVideoDirectory_04_24_2017__10_25_38PM/
+[04-24-2017_10-25-39-PM] Master: Current Graph Directory/home/pi/Desktop/graphs/CurrentGraphDirectory_04_24_2017__10_25_38PM/
+[04-24-2017_10-25-39-PM] Master: Setup Complete
+[04-24-2017_10-25-39-PM] Master: Starting aLoop
+[04-24-2017_10-26-24-PM] Master: ---------------- NEW INSTANCE OF PIPLANTER ----------------
+[04-24-2017_10-26-24-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS PiPlanter_DB
+[04-24-2017_10-26-24-PM] Master: MYSQL COMMAND: GRANT ALL ON `PiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[04-24-2017_10-26-24-PM] Master: MYSQL COMMAND: USE PiPlanter_DB
+[04-24-2017_10-26-24-PM] Master: MYSQL COMMAND: CREATE TABLE DailyTable04_24_2017__10_26_24PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))
+[04-24-2017_10-26-24-PM] Master: MYSQL COMMAND: CREATE TABLE WeeklyTable04_24_2017__10_26_24PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),P_MST0 VARCHAR(100),P_MST1 VARCHAR(100),A_TMP0 VARCHAR(100),A_LDR0 VARCHAR(100))
+[04-24-2017_10-26-24-PM] Master: MYSQL COMMAND: CREATE TABLE MonthlyTable04_24_2017__10_26_24PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))
+[04-24-2017_10-26-24-PM] Master: Current Daily: DailyTable04_24_2017__10_26_24PM
+[04-24-2017_10-26-24-PM] Master: Current Weekly: WeeklyTable04_24_2017__10_26_24PM
+[04-24-2017_10-26-24-PM] Master: Current Monthly: MonthlyTable04_24_2017__10_26_24PM
+[04-24-2017_10-26-24-PM] Master: Creating Video Directory
+[04-24-2017_10-26-24-PM] Master: Video Directory Already Exists
+[04-24-2017_10-26-24-PM] Master: Creating Daily Video Directory
+[04-24-2017_10-26-24-PM] Master: Daily Video Directory Already Exists
+[04-24-2017_10-26-24-PM] Master: Creating Image Directory
+
+[04-24-2017_10-41-53-PM] Master: aLoop Complete
+[04-24-2017_10-42-17-PM] Master: ---------------- NEW INSTANCE OF PIPLANTER ----------------
+[04-24-2017_10-42-18-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS PiPlanter_DB
+[04-24-2017_10-42-18-PM] Master: MYSQL COMMAND: GRANT ALL ON `PiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[04-24-2017_10-42-18-PM] Master: MYSQL COMMAND: USE PiPlanter_DB
+[04-24-2017_10-42-18-PM] Master: MYSQL COMMAND: CREATE TABLE DailyTable04_24_2017__10_42_18PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))
+[04-24-2017_10-42-18-PM] Master: MYSQL COMMAND: CREATE TABLE WeeklyTable04_24_2017__10_42_18PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))
+[04-24-2017_10-42-18-PM] Master: MYSQL COMMAND: CREATE TABLE MonthlyTable04_24_2017__10_42_18PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))
+[04-24-2017_10-42-18-PM] Master: Current Daily: DailyTable04_24_2017__10_42_18PM
+[04-24-2017_10-42-18-PM] Master: Current Weekly: WeeklyTable04_24_2017__10_42_18PM
+[04-24-2017_10-42-18-PM] Master: Current Monthly: MonthlyTable04_24_2017__10_42_18PM
+[04-24-2017_10-42-18-PM] Master: Creating Video Directory
+[04-24-2017_10-42-18-PM] Master: Video Directory Already Exists
+[04-24-2017_10-42-18-PM] Master: Creating Daily Video Directory
+[04-24-2017_10-42-18-PM] Master: Daily Video Directory Already Exists
+[04-24-2017_10-42-18-PM] Master: Creating Image Directory
+[04-24-2017_10-42-18-PM] Master: Image Directory Already Exists
+[04-24-2017_10-42-18-PM] Master: Creating Daily Image Directory
+[04-24-2017_10-42-18-PM] Master: Daily Image Directory Already Exists
+[04-24-2017_10-42-18-PM] Master: Creating Graph Directory
+[04-24-2017_10-42-18-PM] Master: Graph Directory Already Exists
+[04-24-2017_10-42-18-PM] Master: Updating All Current Visual Directories
+[04-24-2017_10-42-18-PM] Master: Making Directory: /home/pi/Desktop/videos/dailys/CurrentVideoDirectory_04_24_2017__10_42_18PM/
+[04-24-2017_10-42-18-PM] Master: Making Directory: /home/pi/Desktop/images/dailys/CurrentImageDirectory_04_24_2017__10_42_18PM/
+[04-24-2017_10-42-18-PM] Master: Making Directory: /home/pi/Desktop/graphs/CurrentGraphDirectory_04_24_2017__10_42_18PM/
+[04-24-2017_10-42-18-PM] Master: Current Image Directory/home/pi/Desktop/images/dailys/CurrentImageDirectory_04_24_2017__10_42_18PM/
+[04-24-2017_10-42-18-PM] Master: Current Video Directory/home/pi/Desktop/videos/dailys/CurrentVideoDirectory_04_24_2017__10_42_18PM/
+[04-24-2017_10-42-18-PM] Master: Current Graph Directory/home/pi/Desktop/graphs/CurrentGraphDirectory_04_24_2017__10_42_18PM/
+[04-24-2017_10-42-18-PM] Master: Setup Complete
+[04-24-2017_10-42-18-PM] Master: Starting aLoop
+[04-24-2017_10-42-18-PM] Master: 211
+[04-24-2017_10-42-23-PM] Master: aLoop Complete
+[04-24-2017_10-42-27-PM] Master: Starting aLoop
+[04-24-2017_10-42-28-PM] Master: 211
+[04-24-2017_10-42-33-PM] Master: aLoop Complete
+[04-24-2017_10-42-37-PM] Master: Starting aLoop
+[04-24-2017_10-42-38-PM] Master: 210
+[04-24-2017_10-42-43-PM] Master: aLoop Complete
+[04-24-2017_10-42-47-PM] Master: Starting aLoop
+[04-24-2017_10-42-48-PM] Master: 210
+[04-24-2017_10-42-53-PM] Master: aLoop Complete
+[04-24-2017_10-42-57-PM] Master: Starting aLoop
+[04-24-2017_10-42-58-PM] Master: 211
+[04-24-2017_10-43-03-PM] Master: aLoop Complete
+[04-24-2017_10-43-07-PM] Master: Starting aLoop
+[04-24-2017_10-43-08-PM] Master: 211
+[04-24-2017_10-43-13-PM] Master: aLoop Complete
+[04-24-2017_10-43-17-PM] Master: Starting aLoop
+[04-24-2017_10-43-18-PM] Master: 208
+[04-24-2017_10-43-23-PM] Master: aLoop Complete
+[04-24-2017_10-43-27-PM] Master: Starting aLoop
+[04-24-2017_10-43-28-PM] Master: 211
+[04-24-2017_10-43-33-PM] Master: aLoop Complete
+[04-24-2017_10-43-37-PM] Master: Starting aLoop
+[04-24-2017_10-43-38-PM] Master: 209
+[04-24-2017_10-43-43-PM] Master: aLoop Complete
+[04-24-2017_10-43-47-PM] Master: Starting aLoop
+[04-24-2017_10-43-48-PM] Master: 209
+[04-24-2017_10-43-53-PM] Master: aLoop Complete
+[04-24-2017_10-43-57-PM] Master: Starting aLoop
+[04-24-2017_10-43-58-PM] Master: 210
+[04-24-2017_10-44-03-PM] Master: aLoop Complete
+[04-24-2017_10-44-07-PM] Master: Starting aLoop
+[04-24-2017_10-44-08-PM] Master: 209
+[04-24-2017_10-44-13-PM] Master: aLoop Complete
+[04-24-2017_10-44-17-PM] Master: Starting aLoop
+[04-24-2017_10-44-18-PM] Master: 210
+[04-24-2017_10-44-23-PM] Master: aLoop Complete
+[04-24-2017_10-44-27-PM] Master: Starting aLoop
+[04-24-2017_10-44-28-PM] Master: 210
+[04-24-2017_10-44-33-PM] Master: aLoop Complete
+[04-24-2017_10-44-37-PM] Master: Starting aLoop
+[04-24-2017_10-44-38-PM] Master: 211
+[04-24-2017_10-44-43-PM] Master: aLoop Complete
+[04-24-2017_10-44-47-PM] Master: Starting aLoop
+[04-24-2017_10-44-48-PM] Master: 210
+[04-24-2017_10-44-53-PM] Master: aLoop Complete
+[04-24-2017_10-44-57-PM] Master: Starting aLoop
+[04-24-2017_10-44-58-PM] Master: 210
+[04-24-2017_10-45-03-PM] Master: aLoop Complete
+[04-24-2017_10-45-07-PM] Master: Starting aLoop
+[04-24-2017_10-45-08-PM] Master: 210
+[04-24-2017_10-45-13-PM] Master: aLoop Complete
+[04-24-2017_10-45-17-PM] Master: Starting aLoop
+[04-24-2017_10-45-18-PM] Master: 209
+[04-24-2017_10-45-23-PM] Master: aLoop Complete
+[04-24-2017_10-45-27-PM] Master: Starting aLoop
+[04-24-2017_10-45-28-PM] Master: 207
+[04-24-2017_10-45-33-PM] Master: aLoop Complete
+[04-24-2017_10-45-37-PM] Master: Starting aLoop
+[04-24-2017_10-45-38-PM] Master: 209
+[04-24-2017_10-45-43-PM] Master: aLoop Complete
+[04-24-2017_10-45-47-PM] Master: Starting aLoop
+[04-24-2017_10-45-48-PM] Master: 209
+[04-24-2017_10-45-53-PM] Master: aLoop Complete
+[04-24-2017_10-45-57-PM] Master: Starting aLoop
+[04-24-2017_10-45-58-PM] Master: 210
+[04-24-2017_10-46-03-PM] Master: aLoop Complete
+[04-24-2017_10-46-07-PM] Master: Starting aLoop
+[04-24-2017_10-46-08-PM] Master: 209
+[04-24-2017_10-46-13-PM] Master: aLoop Complete
+[04-24-2017_10-46-17-PM] Master: Starting aLoop
+[04-24-2017_10-46-18-PM] Master: 209
+[04-24-2017_10-46-23-PM] Master: aLoop Complete
+[04-24-2017_10-46-27-PM] Master: Starting aLoop
+[04-24-2017_10-46-28-PM] Master: 210
+[04-24-2017_10-46-33-PM] Master: aLoop Complete
+[04-24-2017_10-46-37-PM] Master: Starting aLoop
+[04-24-2017_10-46-38-PM] Master: 209
+[04-24-2017_10-46-43-PM] Master: aLoop Complete
+[04-24-2017_10-46-47-PM] Master: Starting aLoop
+[04-24-2017_10-46-48-PM] Master: 211
+[04-24-2017_10-46-53-PM] Master: aLoop Complete
+[04-24-2017_10-46-57-PM] Master: Starting aLoop
+[04-24-2017_10-46-58-PM] Master: 210
+[04-24-2017_10-47-03-PM] Master: aLoop Complete
+[04-24-2017_10-47-07-PM] Master: Starting aLoop
+[04-24-2017_10-47-08-PM] Master: 209
+[04-24-2017_10-47-13-PM] Master: aLoop Complete
+[04-24-2017_10-47-17-PM] Master: Starting aLoop
+[04-24-2017_10-47-18-PM] Master: 210
+[04-24-2017_10-47-23-PM] Master: aLoop Complete
+[04-24-2017_10-47-27-PM] Master: Starting aLoop
+[04-24-2017_10-47-28-PM] Master: 210
+[04-24-2017_10-47-33-PM] Master: aLoop Complete
+[04-24-2017_10-47-37-PM] Master: Starting aLoop
+[04-24-2017_10-47-38-PM] Master: 210
+[04-24-2017_10-47-43-PM] Master: aLoop Complete
+[04-24-2017_10-47-47-PM] Master: Starting aLoop
+[04-24-2017_10-47-48-PM] Master: 209
+[04-24-2017_10-47-53-PM] Master: aLoop Complete
+[04-24-2017_10-47-57-PM] Master: Starting aLoop
+[04-24-2017_10-47-58-PM] Master: 211
+[04-24-2017_10-48-03-PM] Master: aLoop Complete
+[04-24-2017_10-48-07-PM] Master: Starting aLoop
+[04-24-2017_10-48-08-PM] Master: 209
+[04-24-2017_10-48-13-PM] Master: aLoop Complete
+[04-24-2017_10-48-17-PM] Master: Starting aLoop
+[04-24-2017_10-48-18-PM] Master: 208
+[04-24-2017_10-48-23-PM] Master: aLoop Complete
+[04-24-2017_10-48-27-PM] Master: Starting aLoop
+[04-24-2017_10-48-28-PM] Master: 209
+[04-24-2017_10-48-33-PM] Master: aLoop Complete
+[04-24-2017_10-48-37-PM] Master: Starting aLoop
+[04-24-2017_10-48-38-PM] Master: 210
+[04-24-2017_10-48-43-PM] Master: aLoop Complete
+[04-24-2017_10-48-47-PM] Master: Starting aLoop
+[04-24-2017_10-48-48-PM] Master: 210
+[04-24-2017_10-48-53-PM] Master: aLoop Complete
+[04-24-2017_10-48-57-PM] Master: Starting aLoop
+[04-24-2017_10-48-58-PM] Master: 210
+[04-24-2017_10-49-03-PM] Master: aLoop Complete
+[04-26-2017_09-24-07-PM] Master: Starting aLoop
+[04-26-2017_09-24-08-PM] Master: 236
+[04-26-2017_09-24-13-PM] Master: ---------------- NEW INSTANCE OF PIPLANTER ----------------
+[04-26-2017_09-24-13-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS PiPlanter_DB
+[04-26-2017_09-24-13-PM] Master: MYSQL COMMAND: GRANT ALL ON `PiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[04-26-2017_09-24-13-PM] Master: MYSQL COMMAND: USE PiPlanter_DB
+[04-26-2017_09-24-13-PM] Master: MYSQL COMMAND: CREATE TABLE DailyTable04_26_2017__09_24_13PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))
+[04-26-2017_09-24-13-PM] Master: MYSQL COMMAND: CREATE TABLE WeeklyTable04_26_2017__09_24_13PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))
+[04-26-2017_09-24-13-PM] Master: MYSQL COMMAND: CREATE TABLE MonthlyTable04_26_2017__09_24_13PM(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))
+[04-26-2017_09-24-13-PM] Master: Current Daily: DailyTable04_26_2017__09_24_13PM
+[04-26-2017_09-24-13-PM] Master: Current Weekly: WeeklyTable04_26_2017__09_24_13PM
+[04-26-2017_09-24-13-PM] Master: Current Monthly: MonthlyTable04_26_2017__09_24_13PM
+[04-26-2017_09-24-13-PM] Master: Creating Video Directory
+[04-26-2017_09-24-13-PM] Master: Video Directory Already Exists
+[04-26-2017_09-24-13-PM] Master: Creating Daily Video Directory
+[04-26-2017_09-24-13-PM] Master: Daily Video Directory Already Exists
+[04-26-2017_09-24-13-PM] Master: Creating Image Directory
+[04-26-2017_09-24-13-PM] Master: Image Directory Already Exists
+[04-26-2017_09-24-13-PM] Master: Creating Daily Image Directory
+[04-26-2017_09-24-13-PM] Master: Daily Image Directory Already Exists
+[04-26-2017_09-24-13-PM] Master: Creating Graph Directory
+[04-26-2017_09-24-13-PM] Master: Graph Directory Already Exists
+[04-26-2017_09-24-13-PM] Master: Updating All Current Visual Directories
+[04-26-2017_09-24-13-PM] Master: Making Directory: /home/pi/Desktop/videos/dailys/CurrentVideoDirectory_04_26_2017__09_24_13PM/
+[04-26-2017_09-24-13-PM] Master: Making Directory: /home/pi/Desktop/images/dailys/CurrentImageDirectory_04_26_2017__09_24_13PM/
+[04-26-2017_09-24-13-PM] Master: Making Directory: /home/pi/Desktop/graphs/CurrentGraphDirectory_04_26_2017__09_24_13PM/
+[04-26-2017_09-24-13-PM] Master: Current Image Directory/home/pi/Desktop/images/dailys/CurrentImageDirectory_04_26_2017__09_24_13PM/
+[04-26-2017_09-24-13-PM] Master: Current Video Directory/home/pi/Desktop/videos/dailys/CurrentVideoDirectory_04_26_2017__09_24_13PM/
+[04-26-2017_09-24-13-PM] Master: Current Graph Directory/home/pi/Desktop/graphs/CurrentGraphDirectory_04_26_2017__09_24_13PM/
+[04-26-2017_09-24-13-PM] Master: Setup Complete
+[04-26-2017_09-24-13-PM] Master: Starting aLoop
+[04-26-2017_09-24-13-PM] Master: 235
+[04-26-2017_09-24-18-PM] Master: aLoop Complete
+[04-26-2017_09-24-23-PM] Master: Starting aLoop
+[04-26-2017_09-24-23-PM] Master: 235
+[04-26-2017_09-24-28-PM] Master: aLoop Complete
+[04-26-2017_09-24-33-PM] Master: Starting aLoop
+[04-26-2017_09-24-33-PM] Master: 235
+[04-26-2017_09-24-38-PM] Master: aLoop Complete
