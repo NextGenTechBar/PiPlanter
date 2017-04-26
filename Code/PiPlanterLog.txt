@@ -1,2 +1,0 @@
-[03-31-2017_01-18-09-AM] Hardware: Opening Serial Port
-[03-31-2017_01-26-12-AM] Hardware: Opening Serial Port
