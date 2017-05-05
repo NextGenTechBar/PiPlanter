@@ -12,6 +12,8 @@ def writeNumber(value):
 
 def readNumbers():
     number = bus.read_byte(address)
+ 
+    print("number 1 is "+str(number))
     return number
 
 while True:

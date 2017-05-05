@@ -9,6 +9,7 @@ import shutil
 import smbus
 
 import Log
+import RenderData
 LogType = 'Master'
 
 bus = smbus.SMBus(1)
@@ -17,9 +18,9 @@ address = 0x04
 def FirstTimeSetup():
 	global cycle
  
-	Log.ConsoleDebug(LogType,'---------------- NEW INSTANCE OF PIPLANTER ----------------')
+	Log.ConsoleDebug(LogType,'---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------')
  
-	MySQL_Commands = {1 : 'CREATE DATABASE IF NOT EXISTS PiPlanter_DB', 2: "GRANT ALL ON `PiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'", 3: 'USE PiPlanter_DB' }
+	MySQL_Commands = {1 : 'CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB', 2: "GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'", 3: 'USE TestPiPlanter_DB' }
 	for i in MySQL_Commands.itervalues():
 		Log.ConsoleDebug(LogType,'MYSQL COMMAND: ' + i)
 		cursor.execute(i)
@@ -37,11 +38,14 @@ def MySQLTableSetup(full,kind,first):
 	global MySQL_Tables
 	now = datetime.now().strftime("%m_%d_%Y__%I_%M_%S%p")
 	if first == True:
-		MySQL_Tables = { 'MySQLTable_Daily' : 'DailyTable' + now, 'MySQLTable_Weekly' : 'WeeklyTable' + now, 'MySQLTable_Monthly' : 'MonthlyTable' + now}
-		CreateTables = {0: "CREATE TABLE " + MySQL_Tables['MySQLTable_Daily'] + "(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))", 1 : "CREATE TABLE " + MySQL_Tables['MySQLTable_Weekly'] + "(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))" , 2 : "CREATE TABLE " + MySQL_Tables['MySQLTable_Monthly'] + "(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))"}
-		for i in CreateTables.itervalues():
-			Log.ConsoleDebug(LogType,'MYSQL COMMAND: ' + i)
-			cursor.execute(i)
+		#MySQL_Tables = { 'MySQLTable_Daily' : 'DailyTable' + now, 'MySQLTable_Weekly' : 'WeeklyTable' + now, 'MySQLTable_Monthly' : 'MonthlyTable' + now}
+		MySQL_Tables = { 'MySQLTable_Daily' : 'DailyTable', 'MySQLTable_Weekly' : 'WeeklyTable', 'MySQLTable_Monthly' : 'MonthlyTable'}
+
+                #Uncomment later
+		#CreateTables = {0: "CREATE TABLE " + MySQL_Tables['MySQLTable_Daily'] + "(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))", 1 : "CREATE TABLE " + MySQL_Tables['MySQLTable_Weekly'] + "(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))" , 2 : "CREATE TABLE " + MySQL_Tables['MySQLTable_Monthly'] + "(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))"}
+		#for i in CreateTables.itervalues():
+			#Log.ConsoleDebug(LogType,'MYSQL COMMAND: ' + i)
+			#cursor.execute(i)
 
 	elif first == False:
 		if kind == 'Daily':
@@ -156,36 +160,67 @@ def aLoop():
         
         cycle = cycle + 1
         Log.ConsoleDebug(LogType,'aLoop Complete')
+        
+def bloop():
+	Log.ConsoleDebug(LogType,"Starting bLoop")
+	
+	graphlocation = RenderData.RenderGraph(MySQL_Tables['MySQLTable_Weekly'],VisualLocation['CurrentGraphDirectory'])
+	
+	#video = RenderData.RenderVideo(VisualLocation['CurrentImageDirectory'],VisualLocation['CurrentVideoDirectory'])
+ 	
+	#yt_url = DataToWeb.UploadVideo(video,"","")
+
+	#tweet1 = 'Graph of Week So Far: Moisture % - Blue, Ambient Light % - Yellow, Temp DF - Red  http://www.esologic.com/piplanter'
+	#tweet2 = 'Time Lapse Video of Previous Three Days: ' + yt_url
+ 
+	#DataToWeb.TryTweet(True,graphlocation,tweet1)
+	#DataToWeb.TryTweet(False,'',tweet2)
+  
+	Log.ConsoleDebug(LogType,'Removing Old Images, Graphs and Videos')
+	
+	os.system("rm -rf " + VisualLocation['CurrentImageDirectory'])
+	os.system("rm -rf " + VisualLocation['CurrentGraphDirectory'])
+	os.system("rm -rf " + VisualLocation['CurrentVideoDirectory'])
+	
+	Log.ConsoleDebug(LogType,'Old Images, Graphs and Videos Removed')
+	
+	VisualLocationSetup(False,'Image')
+	VisualLocationSetup(False,'Video')
+	VisualLocationSetup(False,'Graph')
+	
+	Log.ConsoleDebug(LogType,'bLoop Complete')
 
 
 def sampleSoilWater():
         global MySQL_Tables
         number = bus.read_byte(address)
-        cursor.execute("INSERT INTO " + MySQL_Tables['MySQLTable_Daily'] + "(Time, soil_water)" + " VALUES(NOW()" + "," + str(number) + ')')
+        #cursor.execute("INSERT INTO " + MySQL_Tables['MySQLTable_Daily'] + "(Time, soil_water)" + " VALUES(NOW()" + "," + str(number) + ')')
+        cursor.execute("INSERT INTO " + MySQL_Tables['MySQLTable_Daily'] + "(Time, soil_water)" + " VALUES(NOW()"  +"," + str(number) +')')
         user.commit()
         cursor.execute("INSERT INTO " + MySQL_Tables['MySQLTable_Weekly'] + "(Time, soil_water)" + " VALUES(NOW()" + "," + str(number) +')')
         user.commit()
-        cursor.execute("INSERT INTO " + MySQL_Tables['MySQLTable_Monthly'] + "(Time, soil_water)" + " VALUES(NOW()" + "," + str(number) +')')
+        cursor.execute("INSERT INTO " + MySQL_Tables['MySQLTable_Monthly'] + "(Time, soil_water)" + " VALUES(NOW()" +  "," + str(number) +')')
         user.commit()
         return number
-        
+        IOErrorIOError
 
         
 if __name__ == '__main__':
         global MySQLTables
         global VisualLocation
 
-        #GPIO.setmode(GPIO,BOARD)
 
         user = MySQLdb.connect(host="localhost",user="root",passwd="")
         cursor = user.cursor()
 
         scheduler = BlockingScheduler()
-        scheduler.add_job(aLoop, 'interval', seconds=10)
+        scheduler.add_job(aLoop, 'interval', minutes=5)
+        scheduler.add_job(aLoop, 'interval', days=1)
 
         FirstTimeSetup()
 
         aLoop()
+        bloop()
 
         scheduler.start()
 

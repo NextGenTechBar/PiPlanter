@@ -1,29 +1,42 @@
-import os
-from datetime import datetime
-import time
-import subprocess
+import MySQLdb
+import pandas as pd
+import plotly
+import plotly.plotly as py
+import plotly.graph_objs as go
+plotly.tools.set_credentials_file(username='Socrates315', api_key='qb1ZvuyQPjQAMFr7Cg08')
 
-#import Log
-#LogType = 'RenderData'
 
-def RenderGraph(table,location):
-    Log.ConsoleDebug(LogType,'Rendering Graph')
-    rendercommand = 'php ' + str(os.getcwd()) + '/WPI_PChart_0_0_1.php ' + table + ' ' + location
-    Log.ConsoleDebug(LogType,'Running Command: ' + rendercommand)
-    proc = subprocess.Popen(rendercommand, shell=True, stdout=subprocess.PIPE)
-    script_response = proc.stdout.read()
-    Log.ConsoleDebug(LogType,'Output File: ' + script_response)
-    Log.ConsoleDebug(LogType,'Rendering Complete')
-    return script_response
-  
-def RenderVideo(infolder,outfolder):
-	Log.ConsoleDebug(LogType,'Rendering Video')
-	outputfile = outfolder + str(datetime.now().strftime("%m_%d_%Y__%I_%M_%S%p")) + '_VIDEO.avi'
-	Log.ConsoleDebug(LogType,'Attempting To Render: ' + outputfile)
-	render_command = 'sudo mencoder mf://' + str(infolder) + '*.jpg -nosound -ovc lavc -lavcopts vcodec=mpeg4:aspect=16/9:vbitrate=8000000 -vf scale=1920:1080 -mf type=jpeg:fps=15 -o ' + outputfile
-	os.system(render_command)
-	Log.ConsoleDebug(LogType,'Deleting frames')
-	deletefiles = 'sudo rm -rf ' + infolder
-	os.system(deletefiles)
-	Log.ConsoleDebug(LogType,'Video Render Complete, File: ' + outputfile)
-	return outputfile
+#Sets up MySQL connection and reads from table.
+conn = MySQLdb.connect(host="localhost", user="root", passwd="", db="TestPiPlanter_DB")
+cursor = conn.cursor()
+cursor.execute('SELECT Sample_Number, Time, soil_water FROM DailyTable')
+rows = cursor.fetchall()
+
+
+#Sets up panda DataFrame Object
+df = pd.DataFrame([[ij for ij in i] for i in rows])
+df.rename(columns={0:'Sample_Number', 1: 'Time', 2: 'soil_water'})
+
+
+#Makes Trace (dataset) #1. Should be only one needed
+trace1 = go.Scatter(
+    x=df[0],
+    y=df[2],
+    mode='lines'
+    )
+
+#Sets Axies titles
+layout= dict(
+    title = 'Water level in Soil over time',
+    xaxis = dict(title='Sample Number'),
+    yaxis = dict(title='Water level')
+    )
+
+#Graphs
+data = [trace1]
+fig = dict(data=data, layout=layout)
+py.plot(fig, filename='Water levels over time')
+
+
+
+
