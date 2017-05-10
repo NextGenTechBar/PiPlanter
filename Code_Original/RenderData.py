@@ -9,6 +9,7 @@ LogType = 'RenderData'
 def RenderGraph(table,location):
     Log.ConsoleDebug(LogType,'Rendering Graph')
     rendercommand = 'php ' + str(os.getcwd()) + '/WPI_PChart_0_0_1.php ' + table + ' ' + location
+    #print(\n \n \n rendercommand \n \n \n)
     Log.ConsoleDebug(LogType,'Running Command: ' + rendercommand)
     proc = subprocess.Popen(rendercommand, shell=True, stdout=subprocess.PIPE)
     script_response = proc.stdout.read()

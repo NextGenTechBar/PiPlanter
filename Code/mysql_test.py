@@ -39,7 +39,7 @@ def MySQLTableSetup(full,kind,first):
 	now = datetime.now().strftime("%m_%d_%Y__%I_%M_%S%p")
 	if first == True:
 		#MySQL_Tables = { 'MySQLTable_Daily' : 'DailyTable' + now, 'MySQLTable_Weekly' : 'WeeklyTable' + now, 'MySQLTable_Monthly' : 'MonthlyTable' + now}
-		MySQL_Tables = { 'MySQLTable_Daily' : 'DailyTable', 'MySQLTable_Weekly' : 'WeeklyTable', 'MySQLTable_Monthly' : 'MonthlyTable'}
+		MySQL_Tables = { 'MySQLTable_Daily' : 'DailyTable ', 'MySQLTable_Weekly' : 'WeeklyTable', 'MySQLTable_Monthly' : 'MonthlyTable'}
 
                 #Uncomment later
 		#CreateTables = {0: "CREATE TABLE " + MySQL_Tables['MySQLTable_Daily'] + "(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))", 1 : "CREATE TABLE " + MySQL_Tables['MySQLTable_Weekly'] + "(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))" , 2 : "CREATE TABLE " + MySQL_Tables['MySQLTable_Monthly'] + "(Sample_Number INT NOT NULL AUTO_INCREMENT PRIMARY KEY,Time VARCHAR(100),soil_water VARCHAR(100))"}
@@ -220,7 +220,7 @@ if __name__ == '__main__':
         FirstTimeSetup()
 
         aLoop()
-        bloop()
+        #bloop()
 
         scheduler.start()
 

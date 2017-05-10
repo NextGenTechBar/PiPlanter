@@ -5394,3 +5394,1263 @@
 [05-05-2017_12-37-44-AM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_05_2017__12_37_44AM/
 [05-05-2017_12-37-44-AM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_05_2017__12_37_44AM/
 [05-05-2017_12-37-44-AM] Master: bLoop Complete
+[05-05-2017_01-54-41-AM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-05-2017_01-54-41-AM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-05-2017_01-54-41-AM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-05-2017_01-54-41-AM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-05-2017_01-54-41-AM] Master: Current Daily: DailyTable May 5th
+[05-05-2017_01-54-41-AM] Master: Current Weekly: WeeklyTable
+[05-05-2017_01-54-41-AM] Master: Current Monthly: MonthlyTable
+[05-05-2017_01-54-41-AM] Master: Creating Video Directory
+[05-05-2017_01-54-41-AM] Master: Video Directory Already Exists
+[05-05-2017_01-54-41-AM] Master: Creating Daily Video Directory
+[05-05-2017_01-54-41-AM] Master: Daily Video Directory Already Exists
+[05-05-2017_01-54-41-AM] Master: Creating Image Directory
+[05-05-2017_01-54-41-AM] Master: Image Directory Already Exists
+[05-05-2017_01-54-41-AM] Master: Creating Daily Image Directory
+[05-05-2017_01-54-41-AM] Master: Daily Image Directory Already Exists
+[05-05-2017_01-54-41-AM] Master: Creating Graph Directory
+[05-05-2017_01-54-41-AM] Master: Graph Directory Already Exists
+[05-05-2017_01-54-41-AM] Master: Updating All Current Visual Directories
+[05-05-2017_01-54-41-AM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_05_2017__01_54_41AM/
+[05-05-2017_01-54-41-AM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_05_2017__01_54_41AM/
+[05-05-2017_01-54-41-AM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_05_2017__01_54_41AM/
+[05-05-2017_01-54-41-AM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_05_2017__01_54_41AM/
+[05-05-2017_01-54-41-AM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_05_2017__01_54_41AM/
+[05-05-2017_01-54-41-AM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_05_2017__01_54_41AM/
+[05-05-2017_01-54-41-AM] Master: Setup Complete
+[05-05-2017_01-54-41-AM] Master: Starting aLoop
+[05-05-2017_01-56-03-AM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-05-2017_01-56-03-AM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-05-2017_01-56-03-AM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-05-2017_01-56-04-AM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-05-2017_01-56-04-AM] Master: Current Daily: DailyTable 05_05_2017__01_56_04AM
+[05-05-2017_01-56-04-AM] Master: Current Weekly: WeeklyTable05_05_2017__01_56_04AM
+[05-05-2017_01-56-04-AM] Master: Current Monthly: MonthlyTable05_05_2017__01_56_04AM
+[05-05-2017_01-56-04-AM] Master: Creating Video Directory
+[05-05-2017_01-56-04-AM] Master: Video Directory Already Exists
+[05-05-2017_01-56-04-AM] Master: Creating Daily Video Directory
+[05-05-2017_01-56-04-AM] Master: Daily Video Directory Already Exists
+[05-05-2017_01-56-04-AM] Master: Creating Image Directory
+[05-05-2017_01-56-04-AM] Master: Image Directory Already Exists
+[05-05-2017_01-56-04-AM] Master: Creating Daily Image Directory
+[05-05-2017_01-56-04-AM] Master: Daily Image Directory Already Exists
+[05-05-2017_01-56-04-AM] Master: Creating Graph Directory
+[05-05-2017_01-56-04-AM] Master: Graph Directory Already Exists
+[05-05-2017_01-56-04-AM] Master: Updating All Current Visual Directories
+[05-05-2017_01-56-04-AM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_05_2017__01_56_04AM/
+[05-05-2017_01-56-04-AM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_05_2017__01_56_04AM/
+[05-05-2017_01-56-04-AM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_05_2017__01_56_04AM/
+[05-05-2017_01-56-04-AM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_05_2017__01_56_04AM/
+[05-05-2017_01-56-04-AM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_05_2017__01_56_04AM/
+[05-05-2017_01-56-04-AM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_05_2017__01_56_04AM/
+[05-05-2017_01-56-04-AM] Master: Setup Complete
+[05-05-2017_01-56-04-AM] Master: Starting aLoop
+[05-05-2017_01-57-20-AM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-05-2017_01-57-21-AM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-05-2017_01-57-21-AM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-05-2017_01-57-21-AM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-05-2017_01-57-21-AM] Master: Current Daily: DailyTable 
+[05-05-2017_01-57-21-AM] Master: Current Weekly: WeeklyTable
+[05-05-2017_01-57-21-AM] Master: Current Monthly: MonthlyTable
+[05-05-2017_01-57-21-AM] Master: Creating Video Directory
+[05-05-2017_01-57-21-AM] Master: Video Directory Already Exists
+[05-05-2017_01-57-21-AM] Master: Creating Daily Video Directory
+[05-05-2017_01-57-21-AM] Master: Daily Video Directory Already Exists
+[05-05-2017_01-57-21-AM] Master: Creating Image Directory
+[05-05-2017_01-57-21-AM] Master: Image Directory Already Exists
+[05-05-2017_01-57-21-AM] Master: Creating Daily Image Directory
+[05-05-2017_01-57-21-AM] Master: Daily Image Directory Already Exists
+[05-05-2017_01-57-21-AM] Master: Creating Graph Directory
+[05-05-2017_01-57-21-AM] Master: Graph Directory Already Exists
+[05-05-2017_01-57-21-AM] Master: Updating All Current Visual Directories
+[05-05-2017_01-57-21-AM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_05_2017__01_57_21AM/
+[05-05-2017_01-57-21-AM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_05_2017__01_57_21AM/
+[05-05-2017_01-57-21-AM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_05_2017__01_57_21AM/
+[05-05-2017_01-57-21-AM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_05_2017__01_57_21AM/
+[05-05-2017_01-57-21-AM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_05_2017__01_57_21AM/
+[05-05-2017_01-57-21-AM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_05_2017__01_57_21AM/
+[05-05-2017_01-57-21-AM] Master: Setup Complete
+[05-05-2017_01-57-21-AM] Master: Starting aLoop
+[05-05-2017_01-57-21-AM] Master: 37
+[05-05-2017_01-57-26-AM] Master: aLoop Complete
+[05-05-2017_02-02-20-AM] Master: Starting aLoop
+[05-05-2017_02-02-21-AM] Master: 39
+[05-05-2017_02-02-26-AM] Master: aLoop Complete
+[05-05-2017_02-07-21-AM] Master: Starting aLoop
+[05-05-2017_02-07-21-AM] Master: 39
+[05-05-2017_02-07-26-AM] Master: aLoop Complete
+[05-05-2017_02-12-21-AM] Master: Starting aLoop
+[05-05-2017_02-12-21-AM] Master: 39
+[05-05-2017_02-12-26-AM] Master: aLoop Complete
+[05-05-2017_02-17-20-AM] Master: Starting aLoop
+[05-05-2017_02-17-21-AM] Master: 39
+[05-05-2017_02-17-26-AM] Master: aLoop Complete
+[05-05-2017_02-22-21-AM] Master: Starting aLoop
+[05-05-2017_02-22-21-AM] Master: 38
+[05-05-2017_02-22-26-AM] Master: aLoop Complete
+[05-05-2017_02-27-21-AM] Master: Starting aLoop
+[05-05-2017_02-27-21-AM] Master: 40
+[05-05-2017_02-27-26-AM] Master: aLoop Complete
+[05-05-2017_02-32-20-AM] Master: Starting aLoop
+[05-05-2017_02-32-21-AM] Master: 41
+[05-05-2017_02-32-26-AM] Master: aLoop Complete
+[05-05-2017_02-37-21-AM] Master: Starting aLoop
+[05-05-2017_02-37-21-AM] Master: 41
+[05-05-2017_02-37-26-AM] Master: aLoop Complete
+[05-05-2017_02-42-21-AM] Master: Starting aLoop
+[05-05-2017_02-42-21-AM] Master: 43
+[05-05-2017_02-42-26-AM] Master: aLoop Complete
+[05-05-2017_02-47-21-AM] Master: Starting aLoop
+[05-05-2017_02-47-21-AM] Master: 47
+[05-05-2017_02-47-26-AM] Master: aLoop Complete
+[05-05-2017_02-52-21-AM] Master: Starting aLoop
+[05-05-2017_02-52-21-AM] Master: 48
+[05-05-2017_02-52-26-AM] Master: aLoop Complete
+[05-05-2017_02-57-20-AM] Master: Starting aLoop
+[05-05-2017_02-57-21-AM] Master: 48
+[05-05-2017_02-57-26-AM] Master: aLoop Complete
+[05-05-2017_03-02-20-AM] Master: Starting aLoop
+[05-05-2017_03-02-21-AM] Master: 48
+[05-05-2017_03-02-26-AM] Master: aLoop Complete
+[05-05-2017_03-07-20-AM] Master: Starting aLoop
+[05-05-2017_03-07-21-AM] Master: 49
+[05-05-2017_03-07-26-AM] Master: aLoop Complete
+[05-05-2017_03-12-20-AM] Master: Starting aLoop
+[05-05-2017_03-12-21-AM] Master: 50
+[05-05-2017_03-12-26-AM] Master: aLoop Complete
+[05-05-2017_03-17-20-AM] Master: Starting aLoop
+[05-05-2017_03-17-21-AM] Master: 49
+[05-05-2017_03-17-26-AM] Master: aLoop Complete
+[05-05-2017_03-22-20-AM] Master: Starting aLoop
+[05-05-2017_03-22-21-AM] Master: 49
+[05-05-2017_03-22-26-AM] Master: aLoop Complete
+[05-05-2017_03-27-20-AM] Master: Starting aLoop
+[05-05-2017_03-27-21-AM] Master: 49
+[05-05-2017_03-27-26-AM] Master: aLoop Complete
+[05-05-2017_03-32-20-AM] Master: Starting aLoop
+[05-05-2017_03-32-21-AM] Master: 50
+[05-05-2017_03-32-26-AM] Master: aLoop Complete
+[05-05-2017_03-37-20-AM] Master: Starting aLoop
+[05-05-2017_03-37-21-AM] Master: 49
+[05-05-2017_03-37-26-AM] Master: aLoop Complete
+[05-05-2017_03-42-20-AM] Master: Starting aLoop
+[05-05-2017_03-42-21-AM] Master: 49
+[05-05-2017_03-42-26-AM] Master: aLoop Complete
+[05-05-2017_03-47-20-AM] Master: Starting aLoop
+[05-05-2017_03-47-21-AM] Master: 49
+[05-05-2017_03-47-26-AM] Master: aLoop Complete
+[05-05-2017_03-52-20-AM] Master: Starting aLoop
+[05-05-2017_03-52-21-AM] Master: 49
+[05-05-2017_03-52-26-AM] Master: aLoop Complete
+[05-05-2017_03-57-20-AM] Master: Starting aLoop
+[05-05-2017_03-57-21-AM] Master: 50
+[05-05-2017_03-57-26-AM] Master: aLoop Complete
+[05-05-2017_04-02-20-AM] Master: Starting aLoop
+[05-05-2017_04-02-21-AM] Master: 49
+[05-05-2017_04-02-26-AM] Master: aLoop Complete
+[05-05-2017_04-07-20-AM] Master: Starting aLoop
+[05-05-2017_04-07-21-AM] Master: 50
+[05-05-2017_04-07-26-AM] Master: aLoop Complete
+[05-05-2017_04-12-20-AM] Master: Starting aLoop
+[05-05-2017_04-12-21-AM] Master: 47
+[05-05-2017_04-12-26-AM] Master: aLoop Complete
+[05-05-2017_04-17-20-AM] Master: Starting aLoop
+[05-05-2017_04-17-21-AM] Master: 49
+[05-05-2017_04-17-26-AM] Master: aLoop Complete
+[05-05-2017_04-22-20-AM] Master: Starting aLoop
+[05-05-2017_04-22-21-AM] Master: 49
+[05-05-2017_04-22-26-AM] Master: aLoop Complete
+[05-05-2017_04-27-20-AM] Master: Starting aLoop
+[05-05-2017_04-27-21-AM] Master: 49
+[05-05-2017_04-27-26-AM] Master: aLoop Complete
+[05-05-2017_04-32-20-AM] Master: Starting aLoop
+[05-05-2017_04-32-21-AM] Master: 52
+[05-05-2017_04-32-26-AM] Master: aLoop Complete
+[05-05-2017_04-37-20-AM] Master: Starting aLoop
+[05-05-2017_04-37-21-AM] Master: 49
+[05-05-2017_04-37-26-AM] Master: aLoop Complete
+[05-05-2017_04-42-20-AM] Master: Starting aLoop
+[05-05-2017_04-42-21-AM] Master: 50
+[05-05-2017_04-42-26-AM] Master: aLoop Complete
+[05-05-2017_04-47-20-AM] Master: Starting aLoop
+[05-05-2017_04-47-21-AM] Master: 49
+[05-05-2017_04-47-26-AM] Master: aLoop Complete
+[05-05-2017_04-52-21-AM] Master: Starting aLoop
+[05-05-2017_04-52-21-AM] Master: 49
+[05-05-2017_04-52-26-AM] Master: aLoop Complete
+[05-05-2017_04-57-20-AM] Master: Starting aLoop
+[05-05-2017_04-57-21-AM] Master: 50
+[05-05-2017_04-57-26-AM] Master: aLoop Complete
+[05-05-2017_05-02-20-AM] Master: Starting aLoop
+[05-05-2017_05-02-21-AM] Master: 49
+[05-05-2017_05-02-26-AM] Master: aLoop Complete
+[05-05-2017_05-07-20-AM] Master: Starting aLoop
+[05-05-2017_05-07-21-AM] Master: 49
+[05-05-2017_05-07-26-AM] Master: aLoop Complete
+[05-05-2017_05-12-20-AM] Master: Starting aLoop
+[05-05-2017_05-12-21-AM] Master: 51
+[05-05-2017_05-12-26-AM] Master: aLoop Complete
+[05-05-2017_05-17-20-AM] Master: Starting aLoop
+[05-05-2017_05-17-21-AM] Master: 49
+[05-05-2017_05-17-26-AM] Master: aLoop Complete
+[05-05-2017_05-22-20-AM] Master: Starting aLoop
+[05-05-2017_05-22-21-AM] Master: 50
+[05-05-2017_05-22-26-AM] Master: aLoop Complete
+[05-05-2017_05-27-20-AM] Master: Starting aLoop
+[05-05-2017_05-27-21-AM] Master: 50
+[05-05-2017_05-27-26-AM] Master: aLoop Complete
+[05-05-2017_05-32-20-AM] Master: Starting aLoop
+[05-05-2017_05-32-21-AM] Master: 49
+[05-05-2017_05-32-26-AM] Master: aLoop Complete
+[05-05-2017_05-37-20-AM] Master: Starting aLoop
+[05-05-2017_05-37-21-AM] Master: 50
+[05-05-2017_05-37-26-AM] Master: aLoop Complete
+[05-05-2017_05-42-20-AM] Master: Starting aLoop
+[05-05-2017_05-42-21-AM] Master: 49
+[05-05-2017_05-42-26-AM] Master: aLoop Complete
+[05-05-2017_05-47-20-AM] Master: Starting aLoop
+[05-05-2017_05-47-21-AM] Master: 49
+[05-05-2017_05-47-26-AM] Master: aLoop Complete
+[05-05-2017_05-52-20-AM] Master: Starting aLoop
+[05-05-2017_05-52-21-AM] Master: 49
+[05-05-2017_05-52-26-AM] Master: aLoop Complete
+[05-05-2017_05-57-20-AM] Master: Starting aLoop
+[05-05-2017_05-57-21-AM] Master: 50
+[05-05-2017_05-57-26-AM] Master: aLoop Complete
+[05-05-2017_06-02-20-AM] Master: Starting aLoop
+[05-05-2017_06-02-21-AM] Master: 49
+[05-05-2017_06-02-26-AM] Master: aLoop Complete
+[05-05-2017_06-07-20-AM] Master: Starting aLoop
+[05-05-2017_06-07-21-AM] Master: 50
+[05-05-2017_06-07-26-AM] Master: aLoop Complete
+[05-05-2017_06-12-20-AM] Master: Starting aLoop
+[05-05-2017_06-12-21-AM] Master: 50
+[05-05-2017_06-12-26-AM] Master: aLoop Complete
+[05-05-2017_06-17-21-AM] Master: Starting aLoop
+[05-05-2017_06-17-21-AM] Master: 49
+[05-05-2017_06-17-26-AM] Master: aLoop Complete
+[05-05-2017_06-22-20-AM] Master: Starting aLoop
+[05-05-2017_06-22-21-AM] Master: 49
+[05-05-2017_06-22-26-AM] Master: aLoop Complete
+[05-05-2017_06-27-20-AM] Master: Starting aLoop
+[05-05-2017_06-27-21-AM] Master: 50
+[05-05-2017_06-27-26-AM] Master: aLoop Complete
+[05-05-2017_06-32-20-AM] Master: Starting aLoop
+[05-05-2017_06-32-21-AM] Master: 51
+[05-05-2017_06-32-26-AM] Master: aLoop Complete
+[05-05-2017_06-37-20-AM] Master: Starting aLoop
+[05-05-2017_06-37-21-AM] Master: 51
+[05-05-2017_06-37-26-AM] Master: aLoop Complete
+[05-05-2017_06-42-20-AM] Master: Starting aLoop
+[05-05-2017_06-42-21-AM] Master: 48
+[05-05-2017_06-42-26-AM] Master: aLoop Complete
+[05-05-2017_06-47-20-AM] Master: Starting aLoop
+[05-05-2017_06-47-21-AM] Master: 49
+[05-05-2017_06-47-26-AM] Master: aLoop Complete
+[05-05-2017_06-52-20-AM] Master: Starting aLoop
+[05-05-2017_06-52-21-AM] Master: 49
+[05-05-2017_06-52-26-AM] Master: aLoop Complete
+[05-05-2017_06-57-21-AM] Master: Starting aLoop
+[05-05-2017_06-57-21-AM] Master: 50
+[05-05-2017_06-57-26-AM] Master: aLoop Complete
+[05-05-2017_07-02-20-AM] Master: Starting aLoop
+[05-05-2017_07-02-21-AM] Master: 51
+[05-05-2017_07-02-26-AM] Master: aLoop Complete
+[05-05-2017_07-07-20-AM] Master: Starting aLoop
+[05-05-2017_07-07-21-AM] Master: 49
+[05-05-2017_07-07-26-AM] Master: aLoop Complete
+[05-05-2017_07-12-20-AM] Master: Starting aLoop
+[05-05-2017_07-12-21-AM] Master: 50
+[05-05-2017_07-12-26-AM] Master: aLoop Complete
+[05-05-2017_07-17-20-AM] Master: Starting aLoop
+[05-05-2017_07-17-21-AM] Master: 48
+[05-05-2017_07-17-26-AM] Master: aLoop Complete
+[05-05-2017_07-22-20-AM] Master: Starting aLoop
+[05-05-2017_07-22-21-AM] Master: 49
+[05-05-2017_07-22-26-AM] Master: aLoop Complete
+[05-05-2017_07-27-20-AM] Master: Starting aLoop
+[05-05-2017_07-27-21-AM] Master: 50
+[05-05-2017_07-27-26-AM] Master: aLoop Complete
+[05-05-2017_07-32-20-AM] Master: Starting aLoop
+[05-05-2017_07-32-21-AM] Master: 48
+[05-05-2017_07-32-26-AM] Master: aLoop Complete
+[05-05-2017_07-37-20-AM] Master: Starting aLoop
+[05-05-2017_07-37-21-AM] Master: 49
+[05-05-2017_07-37-26-AM] Master: aLoop Complete
+[05-05-2017_07-42-20-AM] Master: Starting aLoop
+[05-05-2017_07-42-21-AM] Master: 50
+[05-05-2017_07-42-26-AM] Master: aLoop Complete
+[05-05-2017_07-47-20-AM] Master: Starting aLoop
+[05-05-2017_07-47-21-AM] Master: 49
+[05-05-2017_07-47-26-AM] Master: aLoop Complete
+[05-05-2017_07-52-20-AM] Master: Starting aLoop
+[05-05-2017_07-52-21-AM] Master: 49
+[05-05-2017_07-52-26-AM] Master: aLoop Complete
+[05-05-2017_07-57-20-AM] Master: Starting aLoop
+[05-05-2017_07-57-21-AM] Master: 49
+[05-05-2017_07-57-26-AM] Master: aLoop Complete
+[05-05-2017_08-02-20-AM] Master: Starting aLoop
+[05-05-2017_08-02-21-AM] Master: 48
+[05-05-2017_08-02-26-AM] Master: aLoop Complete
+[05-05-2017_08-07-20-AM] Master: Starting aLoop
+[05-05-2017_08-07-21-AM] Master: 51
+[05-05-2017_08-07-26-AM] Master: aLoop Complete
+[05-05-2017_08-12-20-AM] Master: Starting aLoop
+[05-05-2017_08-12-21-AM] Master: 50
+[05-05-2017_08-12-26-AM] Master: aLoop Complete
+[05-05-2017_08-17-20-AM] Master: Starting aLoop
+[05-05-2017_08-17-21-AM] Master: 50
+[05-05-2017_08-17-26-AM] Master: aLoop Complete
+[05-05-2017_08-22-20-AM] Master: Starting aLoop
+[05-05-2017_08-22-21-AM] Master: 49
+[05-05-2017_08-22-26-AM] Master: aLoop Complete
+[05-05-2017_08-27-20-AM] Master: Starting aLoop
+[05-05-2017_08-27-21-AM] Master: 49
+[05-05-2017_08-27-26-AM] Master: aLoop Complete
+[05-05-2017_08-32-20-AM] Master: Starting aLoop
+[05-05-2017_08-32-21-AM] Master: 47
+[05-05-2017_08-32-26-AM] Master: aLoop Complete
+[05-05-2017_08-37-20-AM] Master: Starting aLoop
+[05-05-2017_08-37-21-AM] Master: 48
+[05-05-2017_08-37-26-AM] Master: aLoop Complete
+[05-05-2017_08-42-20-AM] Master: Starting aLoop
+[05-05-2017_08-42-21-AM] Master: 49
+[05-05-2017_08-42-26-AM] Master: aLoop Complete
+[05-05-2017_08-47-21-AM] Master: Starting aLoop
+[05-05-2017_08-47-21-AM] Master: 49
+[05-05-2017_08-47-26-AM] Master: aLoop Complete
+[05-05-2017_08-52-20-AM] Master: Starting aLoop
+[05-05-2017_08-52-21-AM] Master: 49
+[05-05-2017_08-52-26-AM] Master: aLoop Complete
+[05-05-2017_08-57-20-AM] Master: Starting aLoop
+[05-05-2017_08-57-21-AM] Master: 50
+[05-05-2017_08-57-26-AM] Master: aLoop Complete
+[05-05-2017_09-02-20-AM] Master: Starting aLoop
+[05-05-2017_09-02-21-AM] Master: 49
+[05-05-2017_09-02-26-AM] Master: aLoop Complete
+[05-05-2017_09-07-20-AM] Master: Starting aLoop
+[05-05-2017_09-07-21-AM] Master: 49
+[05-05-2017_09-07-26-AM] Master: aLoop Complete
+[05-05-2017_09-12-20-AM] Master: Starting aLoop
+[05-05-2017_09-12-21-AM] Master: 49
+[05-05-2017_09-12-26-AM] Master: aLoop Complete
+[05-05-2017_09-17-20-AM] Master: Starting aLoop
+[05-05-2017_09-17-21-AM] Master: 49
+[05-05-2017_09-17-26-AM] Master: aLoop Complete
+[05-05-2017_09-22-20-AM] Master: Starting aLoop
+[05-05-2017_09-22-21-AM] Master: 49
+[05-05-2017_09-22-26-AM] Master: aLoop Complete
+[05-05-2017_09-27-20-AM] Master: Starting aLoop
+[05-05-2017_09-27-21-AM] Master: 50
+[05-05-2017_09-27-26-AM] Master: aLoop Complete
+[05-05-2017_09-32-20-AM] Master: Starting aLoop
+[05-05-2017_09-32-21-AM] Master: 50
+[05-05-2017_09-32-26-AM] Master: aLoop Complete
+[05-05-2017_09-37-20-AM] Master: Starting aLoop
+[05-05-2017_09-37-21-AM] Master: 49
+[05-05-2017_09-37-26-AM] Master: aLoop Complete
+[05-05-2017_09-42-20-AM] Master: Starting aLoop
+[05-05-2017_09-42-21-AM] Master: 50
+[05-05-2017_09-42-26-AM] Master: aLoop Complete
+[05-05-2017_09-47-20-AM] Master: Starting aLoop
+[05-05-2017_09-47-21-AM] Master: 49
+[05-05-2017_09-47-26-AM] Master: aLoop Complete
+[05-05-2017_09-52-20-AM] Master: Starting aLoop
+[05-05-2017_09-52-21-AM] Master: 50
+[05-05-2017_09-52-26-AM] Master: aLoop Complete
+[05-05-2017_09-57-20-AM] Master: Starting aLoop
+[05-05-2017_09-57-21-AM] Master: 49
+[05-05-2017_09-57-26-AM] Master: aLoop Complete
+[05-05-2017_10-02-20-AM] Master: Starting aLoop
+[05-05-2017_10-02-21-AM] Master: 48
+[05-05-2017_10-02-26-AM] Master: aLoop Complete
+[05-05-2017_10-07-20-AM] Master: Starting aLoop
+[05-05-2017_10-07-21-AM] Master: 50
+[05-05-2017_10-07-26-AM] Master: aLoop Complete
+[05-05-2017_10-12-20-AM] Master: Starting aLoop
+[05-05-2017_10-12-21-AM] Master: 49
+[05-05-2017_10-12-26-AM] Master: aLoop Complete
+[05-05-2017_10-17-20-AM] Master: Starting aLoop
+[05-05-2017_10-17-21-AM] Master: 50
+[05-05-2017_10-17-26-AM] Master: aLoop Complete
+[05-05-2017_10-22-20-AM] Master: Starting aLoop
+[05-05-2017_10-22-21-AM] Master: 48
+[05-05-2017_10-22-26-AM] Master: aLoop Complete
+[05-05-2017_10-27-20-AM] Master: Starting aLoop
+[05-05-2017_10-27-21-AM] Master: 49
+[05-05-2017_10-27-26-AM] Master: aLoop Complete
+[05-05-2017_10-32-20-AM] Master: Starting aLoop
+[05-05-2017_10-32-21-AM] Master: 51
+[05-05-2017_10-32-26-AM] Master: aLoop Complete
+[05-05-2017_10-37-20-AM] Master: Starting aLoop
+[05-05-2017_10-37-21-AM] Master: 51
+[05-05-2017_10-37-26-AM] Master: aLoop Complete
+[05-05-2017_10-42-20-AM] Master: Starting aLoop
+[05-05-2017_10-42-21-AM] Master: 51
+[05-05-2017_10-42-26-AM] Master: aLoop Complete
+[05-05-2017_10-47-20-AM] Master: Starting aLoop
+[05-05-2017_10-47-21-AM] Master: 48
+[05-05-2017_10-47-26-AM] Master: aLoop Complete
+[05-05-2017_10-52-20-AM] Master: Starting aLoop
+[05-05-2017_10-52-21-AM] Master: 49
+[05-05-2017_10-52-26-AM] Master: aLoop Complete
+[05-05-2017_10-57-20-AM] Master: Starting aLoop
+[05-05-2017_10-57-21-AM] Master: 49
+[05-05-2017_10-57-26-AM] Master: aLoop Complete
+[05-05-2017_11-02-20-AM] Master: Starting aLoop
+[05-05-2017_11-02-21-AM] Master: 49
+[05-05-2017_11-02-26-AM] Master: aLoop Complete
+[05-05-2017_11-07-20-AM] Master: Starting aLoop
+[05-05-2017_11-07-21-AM] Master: 49
+[05-05-2017_11-07-26-AM] Master: aLoop Complete
+[05-05-2017_11-12-20-AM] Master: Starting aLoop
+[05-05-2017_11-12-21-AM] Master: 49
+[05-05-2017_11-12-26-AM] Master: aLoop Complete
+[05-05-2017_11-17-20-AM] Master: Starting aLoop
+[05-05-2017_11-17-21-AM] Master: 49
+[05-05-2017_11-17-26-AM] Master: aLoop Complete
+[05-05-2017_11-22-20-AM] Master: Starting aLoop
+[05-05-2017_11-22-21-AM] Master: 48
+[05-05-2017_11-22-26-AM] Master: aLoop Complete
+[05-05-2017_11-27-20-AM] Master: Starting aLoop
+[05-05-2017_11-27-21-AM] Master: 49
+[05-05-2017_11-27-26-AM] Master: aLoop Complete
+[05-05-2017_11-32-20-AM] Master: Starting aLoop
+[05-05-2017_11-32-21-AM] Master: 48
+[05-05-2017_11-32-26-AM] Master: aLoop Complete
+[05-05-2017_11-37-20-AM] Master: Starting aLoop
+[05-05-2017_11-37-21-AM] Master: 49
+[05-05-2017_11-37-26-AM] Master: aLoop Complete
+[05-05-2017_11-42-20-AM] Master: Starting aLoop
+[05-05-2017_11-42-21-AM] Master: 48
+[05-05-2017_11-42-26-AM] Master: aLoop Complete
+[05-05-2017_11-47-20-AM] Master: Starting aLoop
+[05-05-2017_11-47-21-AM] Master: 49
+[05-05-2017_11-47-26-AM] Master: aLoop Complete
+[05-05-2017_11-52-20-AM] Master: Starting aLoop
+[05-05-2017_11-52-21-AM] Master: 49
+[05-05-2017_11-52-26-AM] Master: aLoop Complete
+[05-05-2017_11-57-20-AM] Master: Starting aLoop
+[05-05-2017_11-57-21-AM] Master: 48
+[05-05-2017_11-57-26-AM] Master: aLoop Complete
+[05-05-2017_12-02-21-PM] Master: Starting aLoop
+[05-05-2017_12-02-21-PM] Master: 49
+[05-05-2017_12-02-26-PM] Master: aLoop Complete
+[05-05-2017_12-07-20-PM] Master: Starting aLoop
+[05-05-2017_12-07-21-PM] Master: 48
+[05-05-2017_12-07-26-PM] Master: aLoop Complete
+[05-05-2017_12-12-20-PM] Master: Starting aLoop
+[05-05-2017_12-12-21-PM] Master: 48
+[05-05-2017_12-12-26-PM] Master: aLoop Complete
+[05-05-2017_12-17-20-PM] Master: Starting aLoop
+[05-05-2017_12-17-21-PM] Master: 49
+[05-05-2017_12-17-26-PM] Master: aLoop Complete
+[05-05-2017_12-22-20-PM] Master: Starting aLoop
+[05-05-2017_12-22-21-PM] Master: 48
+[05-05-2017_12-22-26-PM] Master: aLoop Complete
+[05-05-2017_12-27-20-PM] Master: Starting aLoop
+[05-05-2017_12-27-21-PM] Master: 49
+[05-05-2017_12-27-26-PM] Master: aLoop Complete
+[05-05-2017_12-32-20-PM] Master: Starting aLoop
+[05-05-2017_12-32-21-PM] Master: 50
+[05-05-2017_12-32-26-PM] Master: aLoop Complete
+[05-05-2017_12-37-20-PM] Master: Starting aLoop
+[05-05-2017_12-37-21-PM] Master: 49
+[05-05-2017_12-37-26-PM] Master: aLoop Complete
+[05-05-2017_12-42-20-PM] Master: Starting aLoop
+[05-05-2017_12-42-21-PM] Master: 48
+[05-05-2017_12-42-26-PM] Master: aLoop Complete
+[05-05-2017_12-47-20-PM] Master: Starting aLoop
+[05-05-2017_12-47-21-PM] Master: 48
+[05-05-2017_12-47-26-PM] Master: aLoop Complete
+[05-05-2017_12-52-20-PM] Master: Starting aLoop
+[05-05-2017_12-52-21-PM] Master: 49
+[05-05-2017_12-52-26-PM] Master: aLoop Complete
+[05-05-2017_12-57-20-PM] Master: Starting aLoop
+[05-05-2017_12-57-21-PM] Master: 49
+[05-05-2017_12-57-26-PM] Master: aLoop Complete
+[05-05-2017_01-02-20-PM] Master: Starting aLoop
+[05-05-2017_01-02-21-PM] Master: 48
+[05-05-2017_01-02-26-PM] Master: aLoop Complete
+[05-05-2017_01-07-20-PM] Master: Starting aLoop
+[05-05-2017_01-07-21-PM] Master: 49
+[05-05-2017_01-07-26-PM] Master: aLoop Complete
+[05-05-2017_01-12-20-PM] Master: Starting aLoop
+[05-05-2017_01-12-21-PM] Master: 48
+[05-05-2017_01-12-26-PM] Master: aLoop Complete
+[05-05-2017_01-17-20-PM] Master: Starting aLoop
+[05-05-2017_01-17-21-PM] Master: 48
+[05-05-2017_01-17-26-PM] Master: aLoop Complete
+[05-05-2017_01-22-20-PM] Master: Starting aLoop
+[05-05-2017_01-22-21-PM] Master: 48
+[05-05-2017_01-22-26-PM] Master: aLoop Complete
+[05-05-2017_01-27-20-PM] Master: Starting aLoop
+[05-05-2017_01-27-21-PM] Master: 48
+[05-05-2017_01-27-26-PM] Master: aLoop Complete
+[05-05-2017_01-32-20-PM] Master: Starting aLoop
+[05-05-2017_01-32-21-PM] Master: 48
+[05-05-2017_01-32-26-PM] Master: aLoop Complete
+[05-05-2017_01-37-21-PM] Master: Starting aLoop
+[05-05-2017_01-37-21-PM] Master: 48
+[05-05-2017_01-37-26-PM] Master: aLoop Complete
+[05-05-2017_01-42-20-PM] Master: Starting aLoop
+[05-05-2017_01-42-21-PM] Master: 50
+[05-05-2017_01-42-26-PM] Master: aLoop Complete
+[05-05-2017_01-47-20-PM] Master: Starting aLoop
+[05-05-2017_01-47-21-PM] Master: 47
+[05-05-2017_01-47-26-PM] Master: aLoop Complete
+[05-05-2017_01-52-20-PM] Master: Starting aLoop
+[05-05-2017_01-52-21-PM] Master: 48
+[05-05-2017_01-52-26-PM] Master: aLoop Complete
+[05-05-2017_01-57-20-PM] Master: Starting aLoop
+[05-05-2017_01-57-21-PM] Master: 48
+[05-05-2017_01-57-26-PM] Master: aLoop Complete
+[05-05-2017_02-02-20-PM] Master: Starting aLoop
+[05-05-2017_02-02-21-PM] Master: 48
+[05-05-2017_02-02-26-PM] Master: aLoop Complete
+[05-05-2017_02-07-20-PM] Master: Starting aLoop
+[05-05-2017_02-07-21-PM] Master: 46
+[05-05-2017_02-07-26-PM] Master: aLoop Complete
+[05-05-2017_02-12-20-PM] Master: Starting aLoop
+[05-05-2017_02-12-21-PM] Master: 46
+[05-05-2017_02-12-26-PM] Master: aLoop Complete
+[05-05-2017_02-17-20-PM] Master: Starting aLoop
+[05-05-2017_02-17-21-PM] Master: 47
+[05-05-2017_02-17-26-PM] Master: aLoop Complete
+[05-05-2017_02-22-20-PM] Master: Starting aLoop
+[05-05-2017_02-22-21-PM] Master: 49
+[05-05-2017_02-22-26-PM] Master: aLoop Complete
+[05-05-2017_02-27-20-PM] Master: Starting aLoop
+[05-05-2017_02-27-21-PM] Master: 48
+[05-05-2017_02-27-26-PM] Master: aLoop Complete
+[05-05-2017_02-32-20-PM] Master: Starting aLoop
+[05-05-2017_02-32-21-PM] Master: 47
+[05-05-2017_02-32-26-PM] Master: aLoop Complete
+[05-05-2017_02-37-20-PM] Master: Starting aLoop
+[05-05-2017_02-37-21-PM] Master: 46
+[05-05-2017_02-37-26-PM] Master: aLoop Complete
+[05-05-2017_02-42-20-PM] Master: Starting aLoop
+[05-05-2017_02-42-21-PM] Master: 47
+[05-05-2017_02-42-26-PM] Master: aLoop Complete
+[05-05-2017_02-47-20-PM] Master: Starting aLoop
+[05-05-2017_02-47-21-PM] Master: 47
+[05-05-2017_02-47-26-PM] Master: aLoop Complete
+[05-05-2017_02-52-20-PM] Master: Starting aLoop
+[05-05-2017_02-52-21-PM] Master: 47
+[05-05-2017_02-52-26-PM] Master: aLoop Complete
+[05-05-2017_02-57-20-PM] Master: Starting aLoop
+[05-05-2017_02-57-21-PM] Master: 47
+[05-05-2017_02-57-26-PM] Master: aLoop Complete
+[05-05-2017_03-02-20-PM] Master: Starting aLoop
+[05-05-2017_03-02-21-PM] Master: 47
+[05-05-2017_03-02-26-PM] Master: aLoop Complete
+[05-05-2017_03-07-20-PM] Master: Starting aLoop
+[05-05-2017_03-07-21-PM] Master: 46
+[05-05-2017_03-07-26-PM] Master: aLoop Complete
+[05-05-2017_03-12-20-PM] Master: Starting aLoop
+[05-05-2017_03-12-21-PM] Master: 47
+[05-05-2017_03-12-26-PM] Master: aLoop Complete
+[05-05-2017_03-17-20-PM] Master: Starting aLoop
+[05-05-2017_03-17-21-PM] Master: 49
+[05-05-2017_03-17-26-PM] Master: aLoop Complete
+[05-05-2017_03-22-20-PM] Master: Starting aLoop
+[05-05-2017_03-22-21-PM] Master: 47
+[05-05-2017_03-22-26-PM] Master: aLoop Complete
+[05-05-2017_03-27-20-PM] Master: Starting aLoop
+[05-05-2017_03-27-21-PM] Master: 46
+[05-05-2017_03-27-26-PM] Master: aLoop Complete
+[05-05-2017_03-32-20-PM] Master: Starting aLoop
+[05-05-2017_03-32-21-PM] Master: 47
+[05-05-2017_03-32-26-PM] Master: aLoop Complete
+[05-05-2017_03-37-20-PM] Master: Starting aLoop
+[05-05-2017_03-37-21-PM] Master: 47
+[05-05-2017_03-37-26-PM] Master: aLoop Complete
+[05-05-2017_03-42-20-PM] Master: Starting aLoop
+[05-05-2017_03-42-21-PM] Master: 48
+[05-05-2017_03-42-26-PM] Master: aLoop Complete
+[05-05-2017_03-47-21-PM] Master: Starting aLoop
+[05-05-2017_03-47-21-PM] Master: 48
+[05-05-2017_03-47-26-PM] Master: aLoop Complete
+[05-05-2017_03-52-20-PM] Master: Starting aLoop
+[05-05-2017_03-52-21-PM] Master: 48
+[05-05-2017_03-52-26-PM] Master: aLoop Complete
+[05-05-2017_03-57-20-PM] Master: Starting aLoop
+[05-05-2017_03-57-21-PM] Master: 48
+[05-05-2017_03-57-26-PM] Master: aLoop Complete
+[05-05-2017_04-02-20-PM] Master: Starting aLoop
+[05-05-2017_04-02-21-PM] Master: 47
+[05-05-2017_04-02-26-PM] Master: aLoop Complete
+[05-05-2017_04-07-20-PM] Master: Starting aLoop
+[05-05-2017_04-07-21-PM] Master: 47
+[05-05-2017_04-07-26-PM] Master: aLoop Complete
+[05-05-2017_04-12-20-PM] Master: Starting aLoop
+[05-05-2017_04-12-21-PM] Master: 41
+[05-05-2017_04-12-26-PM] Master: aLoop Complete
+[05-05-2017_04-17-20-PM] Master: Starting aLoop
+[05-05-2017_04-17-21-PM] Master: 37
+[05-05-2017_04-17-26-PM] Master: aLoop Complete
+[05-05-2017_04-22-20-PM] Master: Starting aLoop
+[05-05-2017_04-22-21-PM] Master: 38
+[05-05-2017_04-22-26-PM] Master: aLoop Complete
+[05-05-2017_04-27-20-PM] Master: Starting aLoop
+[05-05-2017_04-27-21-PM] Master: 37
+[05-05-2017_04-27-26-PM] Master: aLoop Complete
+[05-05-2017_04-32-20-PM] Master: Starting aLoop
+[05-05-2017_04-32-21-PM] Master: 34
+[05-05-2017_04-32-26-PM] Master: aLoop Complete
+[05-05-2017_04-37-20-PM] Master: Starting aLoop
+[05-05-2017_04-37-21-PM] Master: 18
+[05-05-2017_04-37-26-PM] Master: aLoop Complete
+[05-05-2017_04-42-21-PM] Master: Starting aLoop
+[05-05-2017_04-42-21-PM] Master: 21
+[05-05-2017_04-42-26-PM] Master: aLoop Complete
+[05-05-2017_04-47-20-PM] Master: Starting aLoop
+[05-05-2017_04-47-21-PM] Master: 21
+[05-05-2017_04-47-26-PM] Master: aLoop Complete
+[05-05-2017_04-52-20-PM] Master: Starting aLoop
+[05-05-2017_04-52-21-PM] Master: 26
+[05-05-2017_04-52-26-PM] Master: aLoop Complete
+[05-05-2017_04-57-20-PM] Master: Starting aLoop
+[05-05-2017_04-57-21-PM] Master: 30
+[05-05-2017_04-57-26-PM] Master: aLoop Complete
+[05-05-2017_05-02-20-PM] Master: Starting aLoop
+[05-05-2017_05-02-21-PM] Master: 34
+[05-05-2017_05-02-26-PM] Master: aLoop Complete
+[05-05-2017_05-07-20-PM] Master: Starting aLoop
+[05-05-2017_05-07-21-PM] Master: 24
+[05-05-2017_05-07-26-PM] Master: aLoop Complete
+[05-05-2017_05-12-20-PM] Master: Starting aLoop
+[05-05-2017_05-12-21-PM] Master: 33
+[05-05-2017_05-12-26-PM] Master: aLoop Complete
+[05-05-2017_05-17-20-PM] Master: Starting aLoop
+[05-05-2017_05-17-21-PM] Master: 31
+[05-05-2017_05-17-26-PM] Master: aLoop Complete
+[05-05-2017_05-22-20-PM] Master: Starting aLoop
+[05-05-2017_05-22-21-PM] Master: 28
+[05-05-2017_05-22-26-PM] Master: aLoop Complete
+[05-05-2017_05-27-20-PM] Master: Starting aLoop
+[05-05-2017_05-27-21-PM] Master: 29
+[05-05-2017_05-27-26-PM] Master: aLoop Complete
+[05-05-2017_05-32-21-PM] Master: Starting aLoop
+[05-05-2017_05-32-21-PM] Master: 29
+[05-05-2017_05-32-26-PM] Master: aLoop Complete
+[05-05-2017_05-37-20-PM] Master: Starting aLoop
+[05-05-2017_05-37-21-PM] Master: 29
+[05-05-2017_05-37-26-PM] Master: aLoop Complete
+[05-05-2017_05-42-20-PM] Master: Starting aLoop
+[05-05-2017_05-42-21-PM] Master: 29
+[05-05-2017_05-42-26-PM] Master: aLoop Complete
+[05-05-2017_05-47-20-PM] Master: Starting aLoop
+[05-05-2017_05-47-21-PM] Master: 27
+[05-05-2017_05-47-26-PM] Master: aLoop Complete
+[05-05-2017_05-52-20-PM] Master: Starting aLoop
+[05-05-2017_05-52-21-PM] Master: 26
+[05-05-2017_05-52-26-PM] Master: aLoop Complete
+[05-05-2017_05-57-20-PM] Master: Starting aLoop
+[05-05-2017_05-57-21-PM] Master: 26
+[05-05-2017_05-57-26-PM] Master: aLoop Complete
+[05-05-2017_06-02-20-PM] Master: Starting aLoop
+[05-05-2017_06-02-21-PM] Master: 27
+[05-05-2017_06-02-26-PM] Master: aLoop Complete
+[05-05-2017_06-07-20-PM] Master: Starting aLoop
+[05-05-2017_06-07-21-PM] Master: 27
+[05-05-2017_06-07-26-PM] Master: aLoop Complete
+[05-05-2017_06-12-20-PM] Master: Starting aLoop
+[05-05-2017_06-12-21-PM] Master: 27
+[05-05-2017_06-12-26-PM] Master: aLoop Complete
+[05-05-2017_06-17-20-PM] Master: Starting aLoop
+[05-05-2017_06-17-21-PM] Master: 28
+[05-05-2017_06-17-26-PM] Master: aLoop Complete
+[05-05-2017_06-22-20-PM] Master: Starting aLoop
+[05-05-2017_06-22-21-PM] Master: 27
+[05-05-2017_06-22-26-PM] Master: aLoop Complete
+[05-05-2017_06-27-20-PM] Master: Starting aLoop
+[05-05-2017_06-27-21-PM] Master: 28
+[05-05-2017_06-27-26-PM] Master: aLoop Complete
+[05-05-2017_06-32-20-PM] Master: Starting aLoop
+[05-05-2017_06-32-21-PM] Master: 27
+[05-05-2017_06-32-26-PM] Master: aLoop Complete
+[05-05-2017_06-37-20-PM] Master: Starting aLoop
+[05-05-2017_06-37-21-PM] Master: 16
+[05-05-2017_06-37-26-PM] Master: aLoop Complete
+[05-05-2017_06-42-20-PM] Master: Starting aLoop
+[05-05-2017_06-42-21-PM] Master: 14
+[05-05-2017_06-42-26-PM] Master: aLoop Complete
+[05-05-2017_06-47-20-PM] Master: Starting aLoop
+[05-05-2017_06-47-21-PM] Master: 13
+[05-05-2017_06-47-26-PM] Master: aLoop Complete
+[05-05-2017_06-52-20-PM] Master: Starting aLoop
+[05-05-2017_06-52-21-PM] Master: 13
+[05-05-2017_06-52-26-PM] Master: aLoop Complete
+[05-05-2017_06-57-20-PM] Master: Starting aLoop
+[05-05-2017_06-57-21-PM] Master: 13
+[05-05-2017_06-57-26-PM] Master: aLoop Complete
+[05-05-2017_07-02-20-PM] Master: Starting aLoop
+[05-05-2017_07-02-21-PM] Master: 11
+[05-05-2017_07-02-26-PM] Master: aLoop Complete
+[05-05-2017_07-07-20-PM] Master: Starting aLoop
+[05-05-2017_07-07-21-PM] Master: 12
+[05-05-2017_07-07-26-PM] Master: aLoop Complete
+[05-05-2017_07-12-20-PM] Master: Starting aLoop
+[05-05-2017_07-12-21-PM] Master: 12
+[05-05-2017_07-12-26-PM] Master: aLoop Complete
+[05-05-2017_07-17-20-PM] Master: Starting aLoop
+[05-05-2017_07-17-21-PM] Master: 13
+[05-05-2017_07-17-26-PM] Master: aLoop Complete
+[05-05-2017_07-22-21-PM] Master: Starting aLoop
+[05-05-2017_07-22-21-PM] Master: 11
+[05-05-2017_07-22-26-PM] Master: aLoop Complete
+[05-05-2017_07-27-20-PM] Master: Starting aLoop
+[05-05-2017_07-27-21-PM] Master: 12
+[05-05-2017_07-27-26-PM] Master: aLoop Complete
+[05-05-2017_07-32-20-PM] Master: Starting aLoop
+[05-05-2017_07-32-21-PM] Master: 12
+[05-05-2017_07-32-26-PM] Master: aLoop Complete
+[05-05-2017_07-37-20-PM] Master: Starting aLoop
+[05-05-2017_07-37-21-PM] Master: 12
+[05-05-2017_07-37-26-PM] Master: aLoop Complete
+[05-05-2017_07-42-20-PM] Master: Starting aLoop
+[05-05-2017_07-42-21-PM] Master: 11
+[05-05-2017_07-42-26-PM] Master: aLoop Complete
+[05-05-2017_07-47-20-PM] Master: Starting aLoop
+[05-05-2017_07-47-21-PM] Master: 12
+[05-05-2017_07-47-26-PM] Master: aLoop Complete
+[05-05-2017_07-52-20-PM] Master: Starting aLoop
+[05-05-2017_07-52-21-PM] Master: 12
+[05-05-2017_07-52-26-PM] Master: aLoop Complete
+[05-05-2017_07-57-20-PM] Master: Starting aLoop
+[05-05-2017_07-57-21-PM] Master: 12
+[05-05-2017_07-57-26-PM] Master: aLoop Complete
+[05-05-2017_08-02-20-PM] Master: Starting aLoop
+[05-05-2017_08-02-21-PM] Master: 12
+[05-05-2017_08-02-26-PM] Master: aLoop Complete
+[05-05-2017_08-07-20-PM] Master: Starting aLoop
+[05-05-2017_08-07-21-PM] Master: 12
+[05-05-2017_08-07-26-PM] Master: aLoop Complete
+[05-05-2017_08-12-20-PM] Master: Starting aLoop
+[05-05-2017_08-12-21-PM] Master: 12
+[05-05-2017_08-12-26-PM] Master: aLoop Complete
+[05-05-2017_08-17-20-PM] Master: Starting aLoop
+[05-05-2017_08-17-21-PM] Master: 13
+[05-05-2017_08-17-26-PM] Master: aLoop Complete
+[05-05-2017_08-22-20-PM] Master: Starting aLoop
+[05-05-2017_08-22-21-PM] Master: 10
+[05-05-2017_08-22-26-PM] Master: aLoop Complete
+[05-05-2017_08-27-20-PM] Master: Starting aLoop
+[05-05-2017_08-27-21-PM] Master: 11
+[05-05-2017_08-27-26-PM] Master: aLoop Complete
+[05-05-2017_08-32-20-PM] Master: Starting aLoop
+[05-05-2017_08-32-21-PM] Master: 13
+[05-05-2017_08-32-26-PM] Master: aLoop Complete
+[05-05-2017_08-37-20-PM] Master: Starting aLoop
+[05-05-2017_08-37-21-PM] Master: 11
+[05-05-2017_08-37-26-PM] Master: aLoop Complete
+[05-05-2017_08-42-20-PM] Master: Starting aLoop
+[05-05-2017_08-42-21-PM] Master: 12
+[05-05-2017_08-42-26-PM] Master: aLoop Complete
+[05-05-2017_08-47-20-PM] Master: Starting aLoop
+[05-05-2017_08-47-21-PM] Master: 11
+[05-05-2017_08-47-26-PM] Master: aLoop Complete
+[05-05-2017_08-52-20-PM] Master: Starting aLoop
+[05-05-2017_08-52-21-PM] Master: 13
+[05-05-2017_08-52-26-PM] Master: aLoop Complete
+[05-05-2017_08-57-20-PM] Master: Starting aLoop
+[05-05-2017_08-57-21-PM] Master: 12
+[05-05-2017_08-57-26-PM] Master: aLoop Complete
+[05-05-2017_09-02-20-PM] Master: Starting aLoop
+[05-05-2017_09-02-21-PM] Master: 12
+[05-05-2017_09-02-26-PM] Master: aLoop Complete
+[05-05-2017_09-07-20-PM] Master: Starting aLoop
+[05-05-2017_09-07-21-PM] Master: 11
+[05-05-2017_09-07-26-PM] Master: aLoop Complete
+[05-05-2017_09-12-20-PM] Master: Starting aLoop
+[05-05-2017_09-12-21-PM] Master: 11
+[05-05-2017_09-12-26-PM] Master: aLoop Complete
+[05-05-2017_09-17-20-PM] Master: Starting aLoop
+[05-05-2017_09-17-21-PM] Master: 11
+[05-05-2017_09-17-26-PM] Master: aLoop Complete
+[05-05-2017_09-22-20-PM] Master: Starting aLoop
+[05-05-2017_09-22-21-PM] Master: 12
+[05-05-2017_09-22-26-PM] Master: aLoop Complete
+[05-05-2017_09-27-20-PM] Master: Starting aLoop
+[05-05-2017_09-27-21-PM] Master: 11
+[05-05-2017_09-27-26-PM] Master: aLoop Complete
+[05-05-2017_09-32-20-PM] Master: Starting aLoop
+[05-05-2017_09-32-21-PM] Master: 12
+[05-05-2017_09-32-26-PM] Master: aLoop Complete
+[05-05-2017_09-37-20-PM] Master: Starting aLoop
+[05-05-2017_09-37-21-PM] Master: 11
+[05-05-2017_09-37-26-PM] Master: aLoop Complete
+[05-05-2017_09-42-20-PM] Master: Starting aLoop
+[05-05-2017_09-42-21-PM] Master: 8
+[05-05-2017_09-42-26-PM] Master: aLoop Complete
+[05-05-2017_09-47-20-PM] Master: Starting aLoop
+[05-05-2017_09-47-21-PM] Master: 12
+[05-05-2017_09-47-26-PM] Master: aLoop Complete
+[05-05-2017_09-52-20-PM] Master: Starting aLoop
+[05-05-2017_09-52-21-PM] Master: 11
+[05-05-2017_09-52-26-PM] Master: aLoop Complete
+[05-05-2017_09-57-20-PM] Master: Starting aLoop
+[05-05-2017_09-57-21-PM] Master: 12
+[05-05-2017_09-57-26-PM] Master: aLoop Complete
+[05-05-2017_10-02-20-PM] Master: Starting aLoop
+[05-05-2017_10-02-21-PM] Master: 11
+[05-05-2017_10-02-26-PM] Master: aLoop Complete
+[05-05-2017_10-07-20-PM] Master: Starting aLoop
+[05-05-2017_10-07-21-PM] Master: 12
+[05-05-2017_10-07-26-PM] Master: aLoop Complete
+[05-05-2017_10-12-20-PM] Master: Starting aLoop
+[05-05-2017_10-12-21-PM] Master: 11
+[05-05-2017_10-12-26-PM] Master: aLoop Complete
+[05-05-2017_10-17-20-PM] Master: Starting aLoop
+[05-05-2017_10-17-21-PM] Master: 11
+[05-05-2017_10-17-26-PM] Master: aLoop Complete
+[05-05-2017_10-22-20-PM] Master: Starting aLoop
+[05-05-2017_10-22-21-PM] Master: 12
+[05-05-2017_10-22-26-PM] Master: aLoop Complete
+[05-05-2017_10-27-20-PM] Master: Starting aLoop
+[05-05-2017_10-27-21-PM] Master: 13
+[05-05-2017_10-27-26-PM] Master: aLoop Complete
+[05-05-2017_10-32-20-PM] Master: Starting aLoop
+[05-05-2017_10-32-21-PM] Master: 11
+[05-05-2017_10-32-26-PM] Master: aLoop Complete
+[05-05-2017_10-37-21-PM] Master: Starting aLoop
+[05-05-2017_10-37-21-PM] Master: 11
+[05-05-2017_10-37-26-PM] Master: aLoop Complete
+[05-05-2017_10-42-20-PM] Master: Starting aLoop
+[05-05-2017_10-42-21-PM] Master: 10
+[05-05-2017_10-42-26-PM] Master: aLoop Complete
+[05-05-2017_10-47-20-PM] Master: Starting aLoop
+[05-05-2017_10-47-21-PM] Master: 11
+[05-05-2017_10-47-26-PM] Master: aLoop Complete
+[05-05-2017_10-52-20-PM] Master: Starting aLoop
+[05-05-2017_10-52-21-PM] Master: 12
+[05-05-2017_10-52-26-PM] Master: aLoop Complete
+[05-05-2017_10-57-20-PM] Master: Starting aLoop
+[05-05-2017_10-57-21-PM] Master: 12
+[05-05-2017_10-57-26-PM] Master: aLoop Complete
+[05-05-2017_11-02-20-PM] Master: Starting aLoop
+[05-05-2017_11-02-21-PM] Master: 12
+[05-05-2017_11-02-26-PM] Master: aLoop Complete
+[05-05-2017_11-07-20-PM] Master: Starting aLoop
+[05-05-2017_11-07-21-PM] Master: 12
+[05-05-2017_11-07-26-PM] Master: aLoop Complete
+[05-05-2017_11-12-20-PM] Master: Starting aLoop
+[05-05-2017_11-12-21-PM] Master: 9
+[05-05-2017_11-12-26-PM] Master: aLoop Complete
+[05-05-2017_11-17-20-PM] Master: Starting aLoop
+[05-05-2017_11-17-21-PM] Master: 12
+[05-05-2017_11-17-26-PM] Master: aLoop Complete
+[05-05-2017_11-22-20-PM] Master: Starting aLoop
+[05-05-2017_11-22-21-PM] Master: 11
+[05-05-2017_11-22-26-PM] Master: aLoop Complete
+[05-05-2017_11-27-20-PM] Master: Starting aLoop
+[05-05-2017_11-27-21-PM] Master: 11
+[05-05-2017_11-27-26-PM] Master: aLoop Complete
+[05-05-2017_11-32-20-PM] Master: Starting aLoop
+[05-05-2017_11-32-21-PM] Master: 12
+[05-05-2017_11-32-26-PM] Master: aLoop Complete
+[05-05-2017_11-37-20-PM] Master: Starting aLoop
+[05-05-2017_11-37-21-PM] Master: 11
+[05-05-2017_11-37-26-PM] Master: aLoop Complete
+[05-05-2017_11-42-21-PM] Master: Starting aLoop
+[05-05-2017_11-42-21-PM] Master: 11
+[05-05-2017_11-42-26-PM] Master: aLoop Complete
+[05-05-2017_11-47-20-PM] Master: Starting aLoop
+[05-05-2017_11-47-21-PM] Master: 11
+[05-05-2017_11-47-26-PM] Master: aLoop Complete
+[05-05-2017_11-52-20-PM] Master: Starting aLoop
+[05-05-2017_11-52-21-PM] Master: 11
+[05-05-2017_11-52-26-PM] Master: aLoop Complete
+[05-05-2017_11-57-20-PM] Master: Starting aLoop
+[05-05-2017_11-57-21-PM] Master: 12
+[05-05-2017_11-57-26-PM] Master: aLoop Complete
+[05-06-2017_12-02-20-AM] Master: Starting aLoop
+[05-06-2017_12-02-21-AM] Master: 10
+[05-06-2017_12-02-26-AM] Master: aLoop Complete
+[05-06-2017_12-07-20-AM] Master: Starting aLoop
+[05-06-2017_12-07-21-AM] Master: 13
+[05-06-2017_12-07-26-AM] Master: aLoop Complete
+[05-06-2017_12-12-20-AM] Master: Starting aLoop
+[05-06-2017_12-12-21-AM] Master: 11
+[05-06-2017_12-12-26-AM] Master: aLoop Complete
+[05-06-2017_12-17-20-AM] Master: Starting aLoop
+[05-06-2017_12-17-21-AM] Master: 10
+[05-06-2017_12-17-26-AM] Master: aLoop Complete
+[05-06-2017_12-22-20-AM] Master: Starting aLoop
+[05-06-2017_12-22-21-AM] Master: 12
+[05-06-2017_12-22-26-AM] Master: aLoop Complete
+[05-06-2017_12-27-20-AM] Master: Starting aLoop
+[05-06-2017_12-27-21-AM] Master: 10
+[05-06-2017_12-27-26-AM] Master: aLoop Complete
+[05-06-2017_12-32-20-AM] Master: Starting aLoop
+[05-06-2017_12-32-21-AM] Master: 12
+[05-06-2017_12-32-26-AM] Master: aLoop Complete
+[05-06-2017_12-37-20-AM] Master: Starting aLoop
+[05-06-2017_12-37-21-AM] Master: 11
+[05-06-2017_12-37-26-AM] Master: aLoop Complete
+[05-06-2017_12-42-20-AM] Master: Starting aLoop
+[05-06-2017_12-42-21-AM] Master: 10
+[05-06-2017_12-42-26-AM] Master: aLoop Complete
+[05-06-2017_12-47-20-AM] Master: Starting aLoop
+[05-06-2017_12-47-21-AM] Master: 12
+[05-06-2017_12-47-26-AM] Master: aLoop Complete
+[05-06-2017_12-52-20-AM] Master: Starting aLoop
+[05-06-2017_12-52-21-AM] Master: 12
+[05-06-2017_12-52-26-AM] Master: aLoop Complete
+[05-06-2017_12-57-20-AM] Master: Starting aLoop
+[05-06-2017_12-57-21-AM] Master: 12
+[05-06-2017_12-57-26-AM] Master: aLoop Complete
+[05-06-2017_01-02-20-AM] Master: Starting aLoop
+[05-06-2017_01-02-21-AM] Master: 11
+[05-06-2017_01-02-26-AM] Master: aLoop Complete
+[05-06-2017_01-07-20-AM] Master: Starting aLoop
+[05-06-2017_01-07-21-AM] Master: 11
+[05-06-2017_01-07-26-AM] Master: aLoop Complete
+[05-06-2017_01-12-20-AM] Master: Starting aLoop
+[05-06-2017_01-12-21-AM] Master: 12
+[05-06-2017_01-12-26-AM] Master: aLoop Complete
+[05-06-2017_01-17-20-AM] Master: Starting aLoop
+[05-06-2017_01-17-21-AM] Master: 12
+[05-06-2017_01-17-26-AM] Master: aLoop Complete
+[05-06-2017_01-22-20-AM] Master: Starting aLoop
+[05-06-2017_01-22-21-AM] Master: 11
+[05-06-2017_01-22-26-AM] Master: aLoop Complete
+[05-06-2017_01-27-20-AM] Master: Starting aLoop
+[05-06-2017_01-27-21-AM] Master: 10
+[05-06-2017_01-27-26-AM] Master: aLoop Complete
+[05-06-2017_01-32-20-AM] Master: Starting aLoop
+[05-06-2017_01-32-21-AM] Master: 10
+[05-06-2017_01-32-26-AM] Master: aLoop Complete
+[05-06-2017_01-37-20-AM] Master: Starting aLoop
+[05-06-2017_01-37-21-AM] Master: 10
+[05-06-2017_01-37-26-AM] Master: aLoop Complete
+[05-06-2017_01-42-20-AM] Master: Starting aLoop
+[05-06-2017_01-42-21-AM] Master: 11
+[05-06-2017_01-42-26-AM] Master: aLoop Complete
+[05-06-2017_01-47-20-AM] Master: Starting aLoop
+[05-06-2017_01-47-21-AM] Master: 12
+[05-06-2017_01-47-26-AM] Master: aLoop Complete
+[05-06-2017_01-52-20-AM] Master: Starting aLoop
+[05-06-2017_01-52-21-AM] Master: 12
+[05-06-2017_01-52-26-AM] Master: aLoop Complete
+[05-06-2017_01-57-20-AM] Master: Starting aLoop
+[05-06-2017_01-57-21-AM] Master: Starting aLoop
+[05-08-2017_09-07-59-PM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-08-2017_09-07-59-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-08-2017_09-07-59-PM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-08-2017_09-07-59-PM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-08-2017_09-07-59-PM] Master: Current Daily: DailyTable 
+[05-08-2017_09-07-59-PM] Master: Current Weekly: WeeklyTable
+[05-08-2017_09-07-59-PM] Master: Current Monthly: MonthlyTable
+[05-08-2017_09-07-59-PM] Master: Creating Video Directory
+[05-08-2017_09-08-00-PM] Master: Video Directory Already Exists
+[05-08-2017_09-08-00-PM] Master: Creating Daily Video Directory
+[05-08-2017_09-08-00-PM] Master: Daily Video Directory Already Exists
+[05-08-2017_09-08-00-PM] Master: Creating Image Directory
+[05-08-2017_09-08-00-PM] Master: Image Directory Already Exists
+[05-08-2017_09-08-00-PM] Master: Creating Daily Image Directory
+[05-08-2017_09-08-00-PM] Master: Daily Image Directory Already Exists
+[05-08-2017_09-08-00-PM] Master: Creating Graph Directory
+[05-08-2017_09-08-00-PM] Master: Graph Directory Already Exists
+[05-08-2017_09-08-00-PM] Master: Updating All Current Visual Directories
+[05-08-2017_09-08-00-PM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_07_59PM/
+[05-08-2017_09-08-00-PM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_07_59PM/
+[05-08-2017_09-08-00-PM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_07_59PM/
+[05-08-2017_09-08-00-PM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_07_59PM/
+[05-08-2017_09-08-00-PM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_07_59PM/
+[05-08-2017_09-08-00-PM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_07_59PM/
+[05-08-2017_09-08-00-PM] Master: Setup Complete
+[05-08-2017_09-08-00-PM] Master: Starting aLoop
+[05-08-2017_09-08-00-PM] Master: 36
+[05-08-2017_09-08-05-PM] Master: aLoop Complete
+[05-08-2017_09-08-15-PM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-08-2017_09-08-15-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-08-2017_09-08-15-PM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-08-2017_09-08-15-PM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-08-2017_09-08-15-PM] Master: Current Daily: DailyTable 
+[05-08-2017_09-08-15-PM] Master: Current Weekly: WeeklyTable
+[05-08-2017_09-08-15-PM] Master: Current Monthly: MonthlyTable
+[05-08-2017_09-08-15-PM] Master: Creating Video Directory
+[05-08-2017_09-08-15-PM] Master: Video Directory Already Exists
+[05-08-2017_09-08-15-PM] Master: Creating Daily Video Directory
+[05-08-2017_09-08-15-PM] Master: Daily Video Directory Already Exists
+[05-08-2017_09-08-15-PM] Master: Creating Image Directory
+[05-08-2017_09-08-15-PM] Master: Image Directory Already Exists
+[05-08-2017_09-08-15-PM] Master: Creating Daily Image Directory
+[05-08-2017_09-08-15-PM] Master: Daily Image Directory Already Exists
+[05-08-2017_09-08-15-PM] Master: Creating Graph Directory
+[05-08-2017_09-08-15-PM] Master: Graph Directory Already Exists
+[05-08-2017_09-08-15-PM] Master: Updating All Current Visual Directories
+[05-08-2017_09-08-15-PM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_08_15PM/
+[05-08-2017_09-08-15-PM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_08_15PM/
+[05-08-2017_09-08-15-PM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_08_15PM/
+[05-08-2017_09-08-15-PM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_08_15PM/
+[05-08-2017_09-08-15-PM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_08_15PM/
+[05-08-2017_09-08-15-PM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_08_15PM/
+[05-08-2017_09-08-15-PM] Master: Setup Complete
+[05-08-2017_09-08-15-PM] Master: Starting aLoop
+[05-08-2017_09-08-15-PM] Master: 35
+[05-08-2017_09-08-17-PM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-08-2017_09-08-17-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-08-2017_09-08-17-PM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-08-2017_09-08-17-PM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-08-2017_09-08-17-PM] Master: Current Daily: DailyTable 
+[05-08-2017_09-08-17-PM] Master: Current Weekly: WeeklyTable
+[05-08-2017_09-08-17-PM] Master: Current Monthly: MonthlyTable
+[05-08-2017_09-08-17-PM] Master: Creating Video Directory
+[05-08-2017_09-08-17-PM] Master: Video Directory Already Exists
+[05-08-2017_09-08-17-PM] Master: Creating Daily Video Directory
+[05-08-2017_09-08-17-PM] Master: Daily Video Directory Already Exists
+[05-08-2017_09-08-17-PM] Master: Creating Image Directory
+[05-08-2017_09-08-17-PM] Master: Image Directory Already Exists
+[05-08-2017_09-08-17-PM] Master: Creating Daily Image Directory
+[05-08-2017_09-08-17-PM] Master: Daily Image Directory Already Exists
+[05-08-2017_09-08-17-PM] Master: Creating Graph Directory
+[05-08-2017_09-08-17-PM] Master: Graph Directory Already Exists
+[05-08-2017_09-08-17-PM] Master: Updating All Current Visual Directories
+[05-08-2017_09-08-17-PM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_08_17PM/
+[05-08-2017_09-08-17-PM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_08_17PM/
+[05-08-2017_09-08-17-PM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_08_17PM/
+[05-08-2017_09-08-17-PM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_08_17PM/
+[05-08-2017_09-08-17-PM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_08_17PM/
+[05-08-2017_09-08-17-PM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_08_17PM/
+[05-08-2017_09-08-17-PM] Master: Setup Complete
+[05-08-2017_09-08-17-PM] Master: Starting aLoop
+[05-08-2017_09-08-17-PM] Master: 35
+[05-08-2017_09-08-22-PM] Master: aLoop Complete
+[05-08-2017_09-11-25-PM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-08-2017_09-11-25-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-08-2017_09-11-25-PM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-08-2017_09-11-25-PM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-08-2017_09-11-25-PM] Master: Current Daily: DailyTable 
+[05-08-2017_09-11-25-PM] Master: Current Weekly: WeeklyTable
+[05-08-2017_09-11-25-PM] Master: Current Monthly: MonthlyTable
+[05-08-2017_09-11-25-PM] Master: Creating Video Directory
+[05-08-2017_09-11-25-PM] Master: Video Directory Already Exists
+[05-08-2017_09-11-25-PM] Master: Creating Daily Video Directory
+[05-08-2017_09-11-25-PM] Master: Daily Video Directory Already Exists
+[05-08-2017_09-11-25-PM] Master: Creating Image Directory
+[05-08-2017_09-11-25-PM] Master: Image Directory Already Exists
+[05-08-2017_09-11-25-PM] Master: Creating Daily Image Directory
+[05-08-2017_09-11-25-PM] Master: Daily Image Directory Already Exists
+[05-08-2017_09-11-25-PM] Master: Creating Graph Directory
+[05-08-2017_09-11-25-PM] Master: Graph Directory Already Exists
+[05-08-2017_09-11-25-PM] Master: Updating All Current Visual Directories
+[05-08-2017_09-11-25-PM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_11_25PM/
+[05-08-2017_09-11-25-PM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_11_25PM/
+[05-08-2017_09-11-25-PM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_11_25PM/
+[05-08-2017_09-11-25-PM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_11_25PM/
+[05-08-2017_09-11-25-PM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_11_25PM/
+[05-08-2017_09-11-25-PM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_11_25PM/
+[05-08-2017_09-11-25-PM] Master: Setup Complete
+[05-08-2017_09-11-25-PM] Master: Starting aLoop
+[05-08-2017_09-11-26-PM] Master: 35
+[05-08-2017_09-11-31-PM] Master: aLoop Complete
+[05-08-2017_09-11-54-PM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-08-2017_09-11-54-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-08-2017_09-11-54-PM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-08-2017_09-11-54-PM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-08-2017_09-11-54-PM] Master: Current Daily: DailyTable 
+[05-08-2017_09-11-54-PM] Master: Current Weekly: WeeklyTable
+[05-08-2017_09-11-54-PM] Master: Current Monthly: MonthlyTable
+[05-08-2017_09-11-54-PM] Master: Creating Video Directory
+[05-08-2017_09-11-54-PM] Master: Video Directory Already Exists
+[05-08-2017_09-11-54-PM] Master: Creating Daily Video Directory
+[05-08-2017_09-11-54-PM] Master: Daily Video Directory Already Exists
+[05-08-2017_09-11-54-PM] Master: Creating Image Directory
+[05-08-2017_09-11-54-PM] Master: Image Directory Already Exists
+[05-08-2017_09-11-54-PM] Master: Creating Daily Image Directory
+[05-08-2017_09-11-54-PM] Master: Daily Image Directory Already Exists
+[05-08-2017_09-11-54-PM] Master: Creating Graph Directory
+[05-08-2017_09-11-54-PM] Master: Graph Directory Already Exists
+[05-08-2017_09-11-54-PM] Master: Updating All Current Visual Directories
+[05-08-2017_09-11-54-PM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_11_54PM/
+[05-08-2017_09-11-54-PM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_11_54PM/
+[05-08-2017_09-11-54-PM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_11_54PM/
+[05-08-2017_09-11-54-PM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_11_54PM/
+[05-08-2017_09-11-54-PM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_11_54PM/
+[05-08-2017_09-11-54-PM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_11_54PM/
+[05-08-2017_09-11-54-PM] Master: Setup Complete
+[05-08-2017_09-11-54-PM] Master: Starting aLoop
+[05-08-2017_09-11-55-PM] Master: 35
+[05-08-2017_09-11-58-PM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-08-2017_09-11-58-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-08-2017_09-11-58-PM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-08-2017_09-11-58-PM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-08-2017_09-11-58-PM] Master: Current Daily: DailyTable 
+[05-08-2017_09-11-58-PM] Master: Current Weekly: WeeklyTable
+[05-08-2017_09-11-58-PM] Master: Current Monthly: MonthlyTable
+[05-08-2017_09-11-58-PM] Master: Creating Video Directory
+[05-08-2017_09-11-58-PM] Master: Video Directory Already Exists
+[05-08-2017_09-11-58-PM] Master: Creating Daily Video Directory
+[05-08-2017_09-11-58-PM] Master: Daily Video Directory Already Exists
+[05-08-2017_09-11-58-PM] Master: Creating Image Directory
+[05-08-2017_09-11-58-PM] Master: Image Directory Already Exists
+[05-08-2017_09-11-58-PM] Master: Creating Daily Image Directory
+[05-08-2017_09-11-58-PM] Master: Daily Image Directory Already Exists
+[05-08-2017_09-11-58-PM] Master: Creating Graph Directory
+[05-08-2017_09-11-58-PM] Master: Graph Directory Already Exists
+[05-08-2017_09-11-58-PM] Master: Updating All Current Visual Directories
+[05-08-2017_09-11-58-PM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_11_58PM/
+[05-08-2017_09-11-58-PM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_11_58PM/
+[05-08-2017_09-11-58-PM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_11_58PM/
+[05-08-2017_09-11-58-PM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_11_58PM/
+[05-08-2017_09-11-58-PM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_11_58PM/
+[05-08-2017_09-11-58-PM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_11_58PM/
+[05-08-2017_09-11-58-PM] Master: Setup Complete
+[05-08-2017_09-11-58-PM] Master: Starting aLoop
+[05-08-2017_09-11-58-PM] Master: 35
+[05-08-2017_09-12-01-PM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-08-2017_09-12-01-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-08-2017_09-12-02-PM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-08-2017_09-12-02-PM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-08-2017_09-12-02-PM] Master: Current Daily: DailyTable 
+[05-08-2017_09-12-02-PM] Master: Current Weekly: WeeklyTable
+[05-08-2017_09-12-02-PM] Master: Current Monthly: MonthlyTable
+[05-08-2017_09-12-02-PM] Master: Creating Video Directory
+[05-08-2017_09-12-02-PM] Master: Video Directory Already Exists
+[05-08-2017_09-12-02-PM] Master: Creating Daily Video Directory
+[05-08-2017_09-12-02-PM] Master: Daily Video Directory Already Exists
+[05-08-2017_09-12-02-PM] Master: Creating Image Directory
+[05-08-2017_09-12-02-PM] Master: Image Directory Already Exists
+[05-08-2017_09-12-02-PM] Master: Creating Daily Image Directory
+[05-08-2017_09-12-02-PM] Master: Daily Image Directory Already Exists
+[05-08-2017_09-12-02-PM] Master: Creating Graph Directory
+[05-08-2017_09-12-02-PM] Master: Graph Directory Already Exists
+[05-08-2017_09-12-02-PM] Master: Updating All Current Visual Directories
+[05-08-2017_09-12-02-PM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_12_02PM/
+[05-08-2017_09-12-02-PM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_12_02PM/
+[05-08-2017_09-12-02-PM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_12_02PM/
+[05-08-2017_09-12-02-PM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_12_02PM/
+[05-08-2017_09-12-02-PM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_12_02PM/
+[05-08-2017_09-12-02-PM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_12_02PM/
+[05-08-2017_09-12-02-PM] Master: Setup Complete
+[05-08-2017_09-12-02-PM] Master: Starting aLoop
+[05-08-2017_09-12-02-PM] Master: 35
+[05-08-2017_09-12-07-PM] Master: aLoop Complete
+[05-08-2017_09-12-24-PM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-08-2017_09-12-24-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-08-2017_09-12-24-PM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-08-2017_09-12-24-PM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-08-2017_09-12-24-PM] Master: Current Daily: DailyTable 
+[05-08-2017_09-12-24-PM] Master: Current Weekly: WeeklyTable
+[05-08-2017_09-12-24-PM] Master: Current Monthly: MonthlyTable
+[05-08-2017_09-12-24-PM] Master: Creating Video Directory
+[05-08-2017_09-12-24-PM] Master: Video Directory Already Exists
+[05-08-2017_09-12-24-PM] Master: Creating Daily Video Directory
+[05-08-2017_09-12-24-PM] Master: Daily Video Directory Already Exists
+[05-08-2017_09-12-24-PM] Master: Creating Image Directory
+[05-08-2017_09-12-24-PM] Master: Image Directory Already Exists
+[05-08-2017_09-12-24-PM] Master: Creating Daily Image Directory
+[05-08-2017_09-12-24-PM] Master: Daily Image Directory Already Exists
+[05-08-2017_09-12-24-PM] Master: Creating Graph Directory
+[05-08-2017_09-12-24-PM] Master: Graph Directory Already Exists
+[05-08-2017_09-12-24-PM] Master: Updating All Current Visual Directories
+[05-08-2017_09-12-24-PM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_12_24PM/
+[05-08-2017_09-12-24-PM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_12_24PM/
+[05-08-2017_09-12-24-PM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_12_24PM/
+[05-08-2017_09-12-24-PM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_12_24PM/
+[05-08-2017_09-12-24-PM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_12_24PM/
+[05-08-2017_09-12-24-PM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_12_24PM/
+[05-08-2017_09-12-24-PM] Master: Setup Complete
+[05-08-2017_09-12-24-PM] Master: Starting aLoop
+[05-08-2017_09-12-24-PM] Master: 34
+[05-08-2017_09-12-29-PM] Master: aLoop Complete
+[05-08-2017_09-17-24-PM] Master: Starting aLoop
+[05-08-2017_09-17-24-PM] Master: 255
+[05-08-2017_09-17-29-PM] Master: aLoop Complete
+[05-08-2017_09-22-24-PM] Master: Starting aLoop
+[05-08-2017_09-27-24-PM] Master: Starting aLoop
+[05-08-2017_09-32-24-PM] Master: Starting aLoop
+[05-08-2017_09-32-24-PM] Master: 51
+[05-08-2017_09-32-29-PM] Master: aLoop Complete
+[05-08-2017_09-37-24-PM] Master: Starting aLoop
+[05-08-2017_09-38-08-PM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-08-2017_09-38-08-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-08-2017_09-38-08-PM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-08-2017_09-38-08-PM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-08-2017_09-38-08-PM] Master: Current Daily: DailyTable 
+[05-08-2017_09-38-08-PM] Master: Current Weekly: WeeklyTable
+[05-08-2017_09-38-08-PM] Master: Current Monthly: MonthlyTable
+[05-08-2017_09-38-08-PM] Master: Creating Video Directory
+[05-08-2017_09-38-08-PM] Master: Video Directory Already Exists
+[05-08-2017_09-38-08-PM] Master: Creating Daily Video Directory
+[05-08-2017_09-38-08-PM] Master: Daily Video Directory Already Exists
+[05-08-2017_09-38-08-PM] Master: Creating Image Directory
+[05-08-2017_09-38-08-PM] Master: Image Directory Already Exists
+[05-08-2017_09-38-08-PM] Master: Creating Daily Image Directory
+[05-08-2017_09-38-08-PM] Master: Daily Image Directory Already Exists
+[05-08-2017_09-38-08-PM] Master: Creating Graph Directory
+[05-08-2017_09-38-08-PM] Master: Graph Directory Already Exists
+[05-08-2017_09-38-08-PM] Master: Updating All Current Visual Directories
+[05-08-2017_09-38-08-PM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_38_08PM/
+[05-08-2017_09-38-08-PM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_38_08PM/
+[05-08-2017_09-38-08-PM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_38_08PM/
+[05-08-2017_09-38-08-PM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_38_08PM/
+[05-08-2017_09-38-08-PM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_38_08PM/
+[05-08-2017_09-38-08-PM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_38_08PM/
+[05-08-2017_09-38-08-PM] Master: Setup Complete
+[05-08-2017_09-38-08-PM] Master: Starting aLoop
+[05-08-2017_09-38-08-PM] Master: 44
+[05-08-2017_09-38-13-PM] Master: aLoop Complete
+[05-08-2017_09-41-20-PM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-08-2017_09-41-21-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-08-2017_09-41-21-PM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-08-2017_09-41-21-PM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-08-2017_09-41-21-PM] Master: Current Daily: DailyTable 
+[05-08-2017_09-41-21-PM] Master: Current Weekly: WeeklyTable
+[05-08-2017_09-41-21-PM] Master: Current Monthly: MonthlyTable
+[05-08-2017_09-41-21-PM] Master: Creating Video Directory
+[05-08-2017_09-41-21-PM] Master: Video Directory Already Exists
+[05-08-2017_09-41-21-PM] Master: Creating Daily Video Directory
+[05-08-2017_09-41-21-PM] Master: Daily Video Directory Already Exists
+[05-08-2017_09-41-21-PM] Master: Creating Image Directory
+[05-08-2017_09-41-21-PM] Master: Image Directory Already Exists
+[05-08-2017_09-41-21-PM] Master: Creating Daily Image Directory
+[05-08-2017_09-41-21-PM] Master: Daily Image Directory Already Exists
+[05-08-2017_09-41-21-PM] Master: Creating Graph Directory
+[05-08-2017_09-41-21-PM] Master: Graph Directory Already Exists
+[05-08-2017_09-41-21-PM] Master: Updating All Current Visual Directories
+[05-08-2017_09-41-21-PM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_41_21PM/
+[05-08-2017_09-41-21-PM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_41_21PM/
+[05-08-2017_09-41-21-PM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_41_21PM/
+[05-08-2017_09-41-21-PM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_41_21PM/
+[05-08-2017_09-41-21-PM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_41_21PM/
+[05-08-2017_09-41-21-PM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_41_21PM/
+[05-08-2017_09-41-21-PM] Master: Setup Complete
+[05-08-2017_09-41-21-PM] Master: Starting aLoop
+[05-08-2017_09-41-21-PM] Master: 255
+[05-08-2017_09-41-26-PM] Master: aLoop Complete
+[05-08-2017_09-41-34-PM] Master: ---------------- NEW INSTANCE OF TESTPIPIPLANTER ----------------
+[05-08-2017_09-41-34-PM] Master: MYSQL COMMAND: CREATE DATABASE IF NOT EXISTS TestPiPlanter_DB
+[05-08-2017_09-41-34-PM] Master: MYSQL COMMAND: GRANT ALL ON `TestPiPlanter_DB`.* TO 'piplanter'@'localhost' IDENTIFIED BY 'password'
+[05-08-2017_09-41-34-PM] Master: MYSQL COMMAND: USE TestPiPlanter_DB
+[05-08-2017_09-41-34-PM] Master: Current Daily: DailyTable 
+[05-08-2017_09-41-34-PM] Master: Current Weekly: WeeklyTable
+[05-08-2017_09-41-34-PM] Master: Current Monthly: MonthlyTable
+[05-08-2017_09-41-34-PM] Master: Creating Video Directory
+[05-08-2017_09-41-34-PM] Master: Video Directory Already Exists
+[05-08-2017_09-41-34-PM] Master: Creating Daily Video Directory
+[05-08-2017_09-41-34-PM] Master: Daily Video Directory Already Exists
+[05-08-2017_09-41-34-PM] Master: Creating Image Directory
+[05-08-2017_09-41-34-PM] Master: Image Directory Already Exists
+[05-08-2017_09-41-34-PM] Master: Creating Daily Image Directory
+[05-08-2017_09-41-34-PM] Master: Daily Image Directory Already Exists
+[05-08-2017_09-41-34-PM] Master: Creating Graph Directory
+[05-08-2017_09-41-34-PM] Master: Graph Directory Already Exists
+[05-08-2017_09-41-34-PM] Master: Updating All Current Visual Directories
+[05-08-2017_09-41-34-PM] Master: Making Directory: /home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_41_34PM/
+[05-08-2017_09-41-34-PM] Master: Making Directory: /home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_41_34PM/
+[05-08-2017_09-41-34-PM] Master: Making Directory: /home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_41_34PM/
+[05-08-2017_09-41-34-PM] Master: Current Image Directory/home/pi/PiPlanter/Code/images/dailys/CurrentImageDirectory_05_08_2017__09_41_34PM/
+[05-08-2017_09-41-34-PM] Master: Current Video Directory/home/pi/PiPlanter/Code/videos/dailys/CurrentVideoDirectory_05_08_2017__09_41_34PM/
+[05-08-2017_09-41-34-PM] Master: Current Graph Directory/home/pi/PiPlanter/Code/graphs/CurrentGraphDirectory_05_08_2017__09_41_34PM/
+[05-08-2017_09-41-34-PM] Master: Setup Complete
+[05-08-2017_09-41-34-PM] Master: Starting aLoop
+[05-08-2017_09-41-34-PM] Master: 51
+[05-08-2017_09-41-39-PM] Master: aLoop Complete
+[05-08-2017_09-46-34-PM] Master: Starting aLoop
+[05-08-2017_09-46-34-PM] Master: 46
+[05-08-2017_09-46-39-PM] Master: aLoop Complete
